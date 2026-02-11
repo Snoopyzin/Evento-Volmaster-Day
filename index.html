@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volmaster Day - Evento de Tecnologia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <!-- <img src="images/logo.png" alt="Volmaster Tech" class="logo-img"> -->
+                <div>
+                    <h1>VOLMASTER</h1>
+                    <p>DAY</p>
+                </div>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#programacao">Programação</a></li>
+                <li><a href="#patrocinadores">Patrocinadores</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="btn-primary">Buy Ticket</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-date">12 SETEMBRO, 2026 | GOIÂNIA, GO</p>
+                <h1 class="hero-title">
+                    Volmaster <span class="highlight">Day</span><br>
+                    (mudar depois)
+                </h1>
+                <button class="btn-hero">Ver Programação</button>
+            </div>
+            <div class="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-value" id="days">00</span>
+                    <span class="countdown-label">Dias</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="hours">00</span>
+                    <span class="countdown-label">Horas</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="minutes">00</span>
+                    <span class="countdown-label">Minutos</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="seconds">00</span>
+                    <span class="countdown-label">Segundos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section class="speakers" id="speaker">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge"><i class="fas fa-users"></i> Conheça os Palestrantes</span>
+                <h2 class="section-title">PALESTRANTES EM DESTAQUE</h2>
+                <div class="title-divider">
+                    <span class="divider-line"></span>
+                    <span class="divider-icon">§</span>
+                    <span class="divider-line"></span>
+                </div>
+            </div>
+            <div class="speakers-grid">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="images/evento 1.jpeg" alt="Alan Campos">
+                        <div class="speaker-overlay">
+                            <div class="speaker-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Alan Campos</h3>
+                        <p class="speaker-role">Instrutor Chefe</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="images/evento 3 Kezia.jpeg" alt="Kezia Campos">
+                        <div class="speaker-overlay">
+                            <div class="speaker-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Kezia Campos</h3>
+                        <p class="speaker-role">(a definir)</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="images/evento 2 matheus.jpeg" alt="Matheus Uai">
+                        <div class="speaker-overlay">
+                            <div class="speaker-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Matheus Uai</h3>
+                        <p class="speaker-role">(somente para testar)</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://via.placeholder.com/400x500/1e1e35/FFD700?text=Unknown" alt="Speaker 4">
+                        <div class="speaker-overlay">
+                            <div class="speaker-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">A definir</h3>
+                        <p class="speaker-role">(mudar depois)</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://via.placeholder.com/400x500/1e1e35/FFD700?text=Unknown" alt="Speaker 5">
+                        <div class="speaker-overlay">
+                            <div class="speaker-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">a definir</h3>
+                        <p class="speaker-role">(mudar depois)</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://via.placeholder.com/400x500/1e1e35/FFD700?text=Unknown" alt="Speaker 6">
+                        <div class="speaker-overlay">
+                            <div class="speaker-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">a definir</h3>
+                        <p class="speaker-role">(mudar depois)</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://via.placeholder.com/400x500/1e1e35/FFD700?text=Unknown" alt="Speaker 7">
+                        <div class="speaker-overlay">
+                            <div class="speaker-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">a definir</h3>
+                        <p class="speaker-role">(mudar depois)</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://via.placeholder.com/400x500/1e1e35/FFD700?text=Unknown" alt="Speaker 8">
+                        <div class="speaker-overlay">
+                            <div class="speaker-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">a definir</h3>
+                        <p class="speaker-role">(mudar depois)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge"><i class="fas fa-calendar"></i> Seu Guia do Evento</span>
+                <h2 class="section-title">PROGRAMAÇÃO</h2>
+                <div class="title-divider">
+                    <span class="divider-line"></span>
+                    <span class="divider-icon">§</span>
+                    <span class="divider-line"></span>
+                </div>
+            </div>
+            <div class="schedule-date">12 Setembro 2026</div>
+            <div class="schedule-content" id="scheduleContent">
+                <div class="schedule-item">
+                    <div class="schedule-time">09:00 - 10:00</div>
+                    <div class="schedule-details">
+                        <h4>(Aguardar instruções)</h4>
+                        <p>Conteúdo a ser definido</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">10:00 - 11:30</div>
+                    <div class="schedule-details">
+                        <h4>(Aguardar instruções)</h4>
+                        <p>Conteúdo a ser definido</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">11:30 - 13:00</div>
+                    <div class="schedule-details">
+                        <h4>(Aguardar instruções)</h4>
+                        <p>Conteúdo a ser definido</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">13:00 - 14:00</div>
+                    <div class="schedule-details">
+                        <h4>(Aguardar instruções)</h4>
+                        <p>Conteúdo a ser definido</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section class="sponsors" id="sponsors">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge"><i class="fas fa-handshake"></i> Nossos Parceiros</span>
+                <h2 class="section-title">PATROCINADORES</h2>
+                <div class="title-divider">
+                    <span class="divider-line"></span>
+                    <span class="divider-icon">§</span>
+                    <span class="divider-line"></span>
+                </div>
+            </div>
+            <div class="sponsors-grid">
+                <div class="sponsor-card">
+                    <a href="https://www.dimsport.it/" target="_blank" rel="noopener noreferrer" class="sponsor-logo">
+                        <img src="images/DIMSPORT EVENTO.png" alt="DIMSPORT - Engine Calibration Specialists">
+                    </a>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-logo">
+                        <img src="https://via.placeholder.com/200x100/1e1e35/FFD700?text=Logo" alt="Patrocinador 2">
+                    </div>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-logo">
+                        <img src="https://via.placeholder.com/200x100/1e1e35/FFD700?text=Logo" alt="Patrocinador 3">
+                    </div>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-logo">
+                        <img src="https://via.placeholder.com/200x100/1e1e35/FFD700?text=Logo" alt="Patrocinador 4">
+                    </div>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-logo">
+                        <img src="https://via.placeholder.com/200x100/1e1e35/FFD700?text=Logo" alt="Patrocinador 5">
+                    </div>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-logo">
+                        <img src="https://via.placeholder.com/200x100/1e1e35/FFD700?text=Logo" alt="Patrocinador 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <!-- <img src="images/logo.png" alt="Volmaster Tech" class="logo-img"> -->
+                        <div>
+                            <h3>VOLMASTER</h3>
+                            <p>DAY</p>
+                        </div>
+                    </div>
+                    <p>Criando experiências memoráveis através de eventos de tecnologia e inovação.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#schedule">Programação</a></li>
+                        <li><a href="#sponsors">Patrocinadores</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Informações de Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Centro de Convenções São Paulo</li>
+                        <li><i class="fas fa-phone"></i> +55 11 99999-9999</li>
+                        <li><i class="fas fa-envelope"></i> eventos@volmastertech.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Volmaster Tech. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Button -->
+    <div class="chat-button">
+        <button class="chat-btn">
+            <span class="chat-text">Olá! Em que posso ajudar?</span>
+            <i class="fas fa-comments chat-icon"></i>
+        </button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
