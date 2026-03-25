@@ -108,7 +108,7 @@
 
 .audience-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: var(--space-2xl);
     margin-top: var(--space-2xl);
 }
@@ -978,6 +978,11 @@
 }
 
 @media (max-width: 480px) {
+    .audience-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+    }
+    
     .audience-block {
         padding: var(--space-lg);
     }
@@ -986,16 +991,37 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: var(--space-md);
+        margin-bottom: var(--space-lg);
     }
 
     .audience-icon {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
 
     .audience-icon svg {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .audience-title {
+        font-size: 1.25rem;
+    }
+    
+    .audience-list {
+        gap: var(--space-md);
+    }
+    
+    .audience-list li {
+        font-size: 0.9375rem;
+        gap: var(--space-sm);
+    }
+    
+    .audience-list li svg {
+        width: 18px;
+        height: 18px;
+        margin-top: 2px;
     }
 
     .audience-title {
