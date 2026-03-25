@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Volmaster - Transforme Sua Oficina em Referência</title>
+    <meta name="description" content="O evento que vai transformar a gestão da sua oficina. 6 horas de imersão com estratégias práticas, tecnologia e networking de alto nível.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-new.css?v=3.0">
+    <link rel="stylesheet" href="css/style-adicional.css?v=3.0">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="js/script-new.js" defer></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <img src="images/logo volmaster branco.jpg" alt="Imersão Volmaster">
+            </div>
+            <div class="preloader-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <p class="preloader-text">Carregando Experiência...</p>
+        </div>
+    </div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo volmaster branco.jpg" alt="Imersão Volmaster" class="logo-img">
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#video-alan">Apresentação</a></li>
+                <li><a href="#publico">Para Quem É</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#ingressos">Ingressos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            
+            <div class="nav-cta">
+                <a href="ingressos.html" class="btn-nav">
+                    Garantir Ingresso
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1️⃣ Hero Section - Apresentação do Evento (capa) -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-gradient"></div>
+        
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="images/logo volmaster branco.jpg" alt="Imersão Volmaster">
+                </div>
+                
+                <h1 class="hero-title">
+                    Imersão <span style="background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%) !important; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important; background-clip: text !important; display: inline-block;">Volmaster Tech</span>
+                </h1>
+                
+                <div class="hero-info">
+                    <div class="info-item">
+                        <span class="info-label">Data</span>
+                        <span class="info-value">12 de Setembro, 2026</span>
+                    </div>
+                    <div class="info-divider"></div>
+                    <div class="info-item">
+                        <span class="info-label">Local</span>
+                        <span class="info-value">Goiânia, GO</span>
+                    </div>
+                </div>
+                
+                <p class="hero-description">
+                    6 horas de imersão total com estratégias práticas, tecnologia de ponta e networking de alto nível para empresários e profissionais do setor automotivo.
+                </p>
+                
+                <div class="countdown" id="countdown"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2️⃣ Apresentação do evento em vídeo (Alan) -->
+    <section class="video-presentation" id="video-alan">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Apresentação Especial</span>
+                <h2 class="section-title">Conheça a Visão do Imersão <span class="gradient-text" style="background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Volmaster</span></h2>
+                <p class="section-description">
+                    Alan Campos, CEO da Volmaster Tech, convida você para esta experiência transformadora
+                </p>
+            </div>
+            
+            <div class="video-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="Apresentação Imersão Volmaster - Alan Campos"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3️⃣ Texto explicativo + 1º Botão de ação -->
+    <section class="event-intro" id="sobre">
+        <div class="container">
+            <div class="intro-content" data-aos="fade-up">
+                <h2 class="intro-title">
+                    Transforme a Gestão da Sua Oficina em <span class="gradient-text">6 Horas de Imersão Total</span>
+                </h2>
+                <p class="intro-text">
+                    O Imersão <span class="gradient-text" style="background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Volmaster</span> é mais do que um evento: é um divisor de águas para empresários, gestores e profissionais do setor automotivo que querem <strong>sair da estagnação e alcançar um novo patamar</strong>.
+                </p>
+                <p class="intro-text">
+                    Aqui você vai descobrir as estratégias exatas que transformam oficinas comuns em negócios de referência. Vamos mostrar como usar a tecnologia a seu favor, otimizar processos, aumentar a lucratividade e construir uma operação que funciona de forma previsível e escalável.
+                </p>
+                <p class="intro-text">
+                    Se você sente que trabalha muito e não vê os resultados que merece, se percebe o mercado mudando enquanto você fica para trás, ou se sabe que tem potencial mas não sabe como destravar o próximo nível — <strong>este evento foi feito para você</strong>.
+                </p>
+                
+                <div class="cta-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cta-highlight">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                        <span>✨ Últimas Vagas Disponíveis</span>
+                    </div>
+                    <a href="ingressos.html" class="btn-primary btn-large cta-button">
+                        Quero Meu Ingresso Agora
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4️⃣ Para quem é o evento -->
+    <section class="target-audience" id="publico">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Público-Alvo</span>
+                <h2 class="section-title">Pra Quem É o Evento</h2>
+                <p class="section-description">
+                    Este evento foi desenhado especificamente para dois perfis de profissionais do setor automotivo
+                </p>
+            </div>
+            
+            <div class="audience-grid" data-aos="fade-up" data-aos-delay="100">
+                <!-- Empresários donos de oficina -->
+                <div class="audience-block">
+                    <div class="audience-header">
+                        <div class="audience-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="audience-title">Você Empresário Dono de Oficina</h3>
+                    </div>
+                    <ul class="audience-list">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Você que criou sua empresa do zero</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Cresceu muito e tem dificuldades na administração</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Sente que precisa avançar, ir para um novo nível</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Sabe que o que te trouxe até aqui não é suficiente para te levar além</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Está vendo o mercado mudar e você está estagnado</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Sabe que tem potencial e deseja ver sua empresa sendo referência</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Gerentes, chefes, mecânicos e eletricistas -->
+                <div class="audience-block">
+                    <div class="audience-header">
+                        <div class="audience-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="audience-title">Você Gerente, Chefe, Mecânico e Eletricista</h3>
+                    </div>
+                    <ul class="audience-list">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Você que é um ótimo profissional, mas trabalha muito e ganha pouco</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Você que busca ser o melhor na sua área de atuação</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Você que é o principal interessado no seu crescimento profissional</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Você que não quer ficar parado no tempo e deseja acompanhar as evoluções</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Você que quer trabalhar menos e ganhar mais</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Você que sabe que o mundo é dos espertos, mas o mercado é dos que avançam</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5️⃣ Palestrantes + 2º Botão de ação -->
+    <section class="speakers" id="palestrantes">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Palestrantes</span>
+                <h2 class="section-title">Quem Vai Compartilhar <span class="gradient-text">Conhecimento com Você</span></h2>
+                <p class="section-description">
+                    Especialistas renomados do setor automotivo e tecnológico
+                </p>
+            </div>
+            
+            <div class="speakers-grid">
+                <div class="speaker-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="speaker-image">
+                        <img src="images/evento 1.jpeg" alt="Alan Campos" loading="lazy">
+                        <div class="speaker-overlay"></div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Alan Campos</h3>
+                        <p class="speaker-role">Instrutor Técnico</p>
+                    </div>
+                </div>
+                
+                <div class="speaker-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="speaker-image">
+                        <img src="images/evento 3 Kezia.jpeg" alt="Kezia Campos" loading="lazy">
+                        <div class="speaker-overlay"></div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Kezia Campos</h3>
+                        <p class="speaker-role">A definir</p>
+                    </div>
+                </div>
+                
+                <div class="speaker-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="speaker-image">
+                        <img src="images/palestrante lais.jpeg" alt="Dr. Lais Torres" loading="lazy">
+                        <div class="speaker-overlay"></div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Dra. Lais Torres</h3>
+                        <p class="speaker-role">Advogada especializada em oficinas de caminhão</p>
+                    </div>
+                </div>
+                
+                <div class="speaker-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="speaker-image">
+                        <img src="images/palestrante bruno.jpeg" alt="Dr. Alex Brunno" loading="lazy">
+                        <div class="speaker-overlay"></div>
+                    </div>
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Dr. Alex Brunno</h3>
+                        <p class="speaker-role">Advogado Tributário</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2º Botão de ação -->
+            <div class="cta-box" data-aos="fade-up" style="margin-top: 60px;">
+                <div class="cta-highlight">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <span>🔥 Aprenda com os Melhores</span>
+                </div>
+                <a href="ingressos.html" class="btn-primary btn-large cta-button">
+                    Quero Aprender com Esses Especialistas
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6️⃣ Apresentação CEO da Volmaster Tech (História Alan) -->
+    <section class="ceo-story" id="historia-alan">
+        <div class="container">
+            <div class="story-container" data-aos="fade-up">
+                <div class="story-image">
+                    <img src="images/evento 1.jpeg" alt="Alan Campos - CEO Volmaster Tech" loading="lazy">
+                    <div class="story-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L3.5 9L12 16L20.5 9L12 2Z"/>
+                            <path d="M12 16L3.5 9V15L12 22L20.5 15V9L12 16Z" opacity="0.6"/>
+                        </svg>
+                        <span>CEO & Fundador</span>
+                    </div>
+                </div>
+                <div class="story-content">
+                    <span class="section-badge">A História Por Trás</span>
+                    <h2 class="section-title">De Mecânico a CEO da <span class="gradient-text">Maior Tech do Setor</span></h2>
+                    
+                    <div class="story-text">
+                        <p>
+                            Alan Campos começou sua jornada como mecânico em uma pequena oficina em Goiânia. Com as mãos sujas de óleo e um sonho claro: transformar a forma como oficinas operam no Brasil.
+                        </p>
+                        <p>
+                            Depois de anos trabalhando 12 horas por dia e percebendo que o esforço não se convertia em resultado, Alan decidiu estudar gestão, tecnologia e processos. Foi aí que tudo mudou.
+                        </p>
+                        <p>
+                            Hoje, como CEO da Volmaster Tech, Alan lidera a empresa que já ajudou mais de 500 oficinas a aumentarem sua lucratividade em até 300%, implementando sistemas de gestão inteligentes e processos otimizados.
+                        </p>
+                        <p>
+                            <strong>No Imersão <span class="gradient-text" style="background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Volmaster</span>, Alan vai compartilhar exatamente o que funcionou, o que não funcionou, e como você pode aplicar essas estratégias no seu negócio.</strong>
+                        </p>
+                    </div>
+
+                    <div class="story-stats">
+                        <div class="story-stat">
+                            <div class="stat-value">500+</div>
+                            <div class="stat-label">Oficinas Transformadas</div>
+                        </div>
+                        <div class="story-stat">
+                            <div class="stat-value">300%</div>
+                            <div class="stat-label">Aumento Médio de Lucratividade</div>
+                        </div>
+                        <div class="story-stat">
+                            <div class="stat-value">15+</div>
+                            <div class="stat-label">Anos de Experiência</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6.5️⃣ Alan Diego - Instrutor Técnico -->
+    <section class="instructor-section" id="instrutor-tecnico" style="padding: 80px 0; background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(15,23,42,0.95) 100%);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Instrutor Técnico</span>
+                <h2 class="section-title">Quem é <span class="gradient-text">Alan Diego?</span></h2>
+            </div>
+            
+            <div class="story-container" data-aos="fade-up" style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; margin-top: 40px;">
+                <div class="story-image" style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 25px 50px rgba(14, 165, 233, 0.2);">
+                    <img src="images/evento 1.jpeg" alt="Alan Diego - Instrutor Técnico" loading="lazy" style="width: 100%; height: auto; display: block;">
+                    <div class="story-badge" style="position: absolute; top: 20px; left: 20px; background: rgba(14, 165, 233, 0.95); backdrop-filter: blur(10px); padding: 12px 24px; border-radius: 50px; display: flex; align-items: center; gap: 8px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                        </svg>
+                        <span style="font-weight: 600; color: white;">Instrutor Técnico</span>
+                    </div>
+                </div>
+                
+                <div class="story-content">
+                    <div class="story-text">
+                        <p style="font-size: 1.125rem; line-height: 1.8; color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">
+                            Conheça <strong style="color: #0ea5e9;">Alan Diego</strong>, nosso Instrutor Técnico, um especialista na linha Volvo com <strong>mais de 15 anos transformando sonhos em realidade</strong>. Ele é extremamente reconhecido por sua excelente didática, sempre trazendo as novidades do mercado em um treinamento 100% prático e focado com a "mão na massa".
+                        </p>
+                        <p style="font-size: 1.125rem; line-height: 1.8; color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">
+                            Seu método de ensino tem sido fundamental para o sucesso de milhares de profissionais nas áreas de mecânica, elétrica e programação.
+                        </p>
+                        <p style="font-size: 1.25rem; line-height: 1.8; color: #0ea5e9; font-weight: 600; padding: 20px; background: rgba(14, 165, 233, 0.1); border-left: 4px solid #0ea5e9; border-radius: 8px; margin-top: 2rem;">
+                            Na <span class="gradient-text" style="background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 700;">Imersão Volmaster</span>, Alan Diego vai compartilhar técnicas avançadas, estratégias práticas do dia a dia e as inovações tecnológicas que estão revolucionando o setor automotivo. Prepare-se para uma experiência única de aprendizado prático!
+                        </p>
+                    </div>
+
+                    <div class="story-stats" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 40px;">
+                        <div class="story-stat" style="text-align: center; padding: 20px; background: rgba(14, 165, 233, 0.05); border-radius: 12px; border: 1px solid rgba(14, 165, 233, 0.2);">
+                            <div class="stat-value" style="font-size: 2.5rem; font-weight: 700; background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">15+</div>
+                            <div class="stat-label" style="color: rgba(255,255,255,0.7); margin-top: 8px;">Anos de Experiência</div>
+                        </div>
+                        <div class="story-stat" style="text-align: center; padding: 20px; background: rgba(14, 165, 233, 0.05); border-radius: 12px; border: 1px solid rgba(14, 165, 233, 0.2);">
+                            <div class="stat-value" style="font-size: 2.5rem; font-weight: 700; background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">1000+</div>
+                            <div class="stat-label" style="color: rgba(255,255,255,0.7); margin-top: 8px;">Profissionais Treinados</div>
+                        </div>
+                        <div class="story-stat" style="text-align: center; padding: 20px; background: rgba(14, 165, 233, 0.05); border-radius: 12px; border: 1px solid rgba(14, 165, 233, 0.2);">
+                            <div class="stat-value" style="font-size: 2.5rem; font-weight: 700; background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">100%</div>
+                            <div class="stat-label" style="color: rgba(255,255,255,0.7); margin-top: 8px;">Prático</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7️⃣ Vídeo Expectativas (clientes e parceiros) -->
+    <section class="testimonials-video" id="testimonials-video">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Expectativas</span>
+                <h2 class="section-title">O Que Nossos <span class="gradient-text">Clientes e Parceiros</span> Esperam</h2>
+                <p class="section-description">
+                    Veja o que quem já conhece a Volmaster Tech está esperando do evento
+                </p>
+            </div>
+            
+            <div class="testimonials-video-grid">
+                <div class="testimonial-video-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                            title="Depoimento 1"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="testimonial-video-info">
+                        <h4>João Silva</h4>
+                        <p>Dono da Oficina Premium Auto</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-video-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                            title="Depoimento 2"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="testimonial-video-info">
+                        <h4>Maria Santos</h4>
+                        <p>Gerente da MegaAuto Center</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-video-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                            title="Depoimento 3"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="testimonial-video-info">
+                        <h4>Carlos Mendes</h4>
+                        <p>Parceiro DIMSPORT Brasil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8️⃣ Botões de Dúvidas + 3º Botão de ação (últimas vagas) -->
+    <section class="faq-cta" id="duvidas">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">FAQ</span>
+                <h2 class="section-title">Ainda Tem <span class="gradient-text">Dúvidas?</span></h2>
+                <p class="section-description">
+                    Respondemos as perguntas mais frequentes sobre o evento
+                </p>
+            </div>
+
+            <div class="faq-list" data-aos="fade-up" data-aos-delay="100">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Quanto tempo dura o evento?</h4>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O Imersão <span class="gradient-text" style="background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Volmaster</span> tem duração de 6 horas, das 8h às 14h, com intervalo para coffee break e networking.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Recebo certificado de participação?</h4>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Todos os participantes recebem certificado digital de participação ao final do evento.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Posso levar membros da minha equipe?</h4>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Oferecemos descontos especiais para grupos. Entre em contato para saber mais sobre as condições.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Fornecerão material do evento?</h4>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Você receberá um kit completo com material de apoio, caneta, bloco de notas e acesso digital a todos os slides das palestras.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Posso cancelar minha inscrição?</h4>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim. Oferecemos garantia de 30 dias. Se você não ficar satisfeito, devolvemos seu dinheiro sem perguntas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Haverá oportunidade de networking?</h4>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Com certeza! Teremos coffee break e momentos dedicados exclusivamente para networking e troca de experiências entre os participantes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3º Botão de ação - ÚLTIMAS VAGAS -->
+            <div class="cta-box final-cta" data-aos="fade-up" style="margin-top: 60px;">
+                <div class="urgency-banner">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/>
+                    </svg>
+                    <div>
+                        <h3>⚠️ ÚLTIMAS VAGAS DISPONÍVEIS</h3>
+                        <p>Restam apenas <strong>12 vagas</strong> para garantir sua participação!</p>
+                    </div>
+                </div>
+                <a href="ingressos.html" class="btn-primary btn-large cta-button pulse-animation">
+                    Garantir Minha Vaga Agora
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9️⃣ Patrocinadores -->
+    <section class="sponsors" id="sponsors">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Parceiros</span>
+                <h2 class="section-title">PATROCINADORES</h2>
+                <p class="section-description">
+                    Empresas que acreditam e investem em inovação
+                </p>
+            </div>
+            <div class="sponsors-grid">
+                <div class="sponsor-card" data-aos="fade-up" data-aos-delay="0">
+                    <a href="https://www.dimsport.it/" target="_blank" rel="noopener noreferrer" class="sponsor-logo">
+                        <img src="images/DIMSPORT EVENTO.png" alt="DIMSPORT - Engine Calibration Specialists">
+                    </a>
+                </div>
+                <div class="sponsor-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="sponsor-logo">
+                        <img src="https://via.placeholder.com/200x100/1e1e35/0ea5e9?text=Patrocinador+2" alt="Patrocinador 2">
+                    </div>
+                </div>
+                <div class="sponsor-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="sponsor-logo">
+                        <img src="https://via.placeholder.com/200x100/1e1e35/0ea5e9?text=Patrocinador+3" alt="Patrocinador 3">
+                    </div>
+                </div>
+                <div class="sponsor-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="sponsor-logo">
+                        <img src="https://via.placeholder.com/200x100/1e1e35/0ea5e9?text=Patrocinador+4" alt="Patrocinador 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔟 Ingressos -->
+    <section class="tickets" id="ingressos">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Investimento</span>
+                <h2 class="section-title">Escolha Seu <span class="gradient-text">Ingresso</span></h2>
+                <p class="section-description">
+                    Planos pensados para diferentes necessidades
+                </p>
+            </div>
+
+            <div class="tickets-grid">
+                <!-- Ingresso Individual -->
+                <div class="ticket-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="ticket-header">
+                        <h3 class="ticket-name">Individual</h3>
+                        <p class="ticket-description">Perfeito para você que quer participar sozinho</p>
+                    </div>
+                    <div class="ticket-price">
+                        <span class="price-currency">R$</span>
+                        <span class="price-value">497</span>
+                        <span class="price-period">à vista</span>
+                    </div>
+                    <div class="ticket-installment">ou 12x de R$ 49,70</div>
+                    <ul class="ticket-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Acesso completo ao evento</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Material de apoio</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Coffee break</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Certificado digital</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Área de networking</span>
+                        </li>
+                    </ul>
+                    <a href="ingressos.html" class="btn-secondary btn-large">Garantir Ingresso</a>
+                </div>
+
+                <!-- Ingresso Equipe (Popular) -->
+                <div class="ticket-card popular" data-aos="fade-up" data-aos-delay="100">
+                    <div class="popular-badge">MAIS POPULAR</div>
+                    <div class="ticket-header">
+                        <h3 class="ticket-name">Equipe (3 pessoas)</h3>
+                        <p class="ticket-description">Traga sua equipe e economize</p>
+                    </div>
+                    <div class="ticket-price">
+                        <span class="price-currency">R$</span>
+                        <span class="price-value">1.197</span>
+                        <span class="price-period">à vista</span>
+                    </div>
+                    <div class="ticket-installment">ou 12x de R$ 119,70</div>
+                    <div class="ticket-discount">Economize R$ 294 (20% OFF)</div>
+                    <ul class="ticket-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Tudo do plano Individual</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>3 ingressos (R$ 399 cada)</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Material físico premium</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Brinde exclusivo</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>20% de desconto</span>
+                        </li>
+                    </ul>
+                    <a href="ingressos.html" class="btn-primary btn-large cta-button">Garantir Ingressos</a>
+                </div>
+
+                <!-- Ingresso VIP -->
+                <div class="ticket-card vip" data-aos="fade-up" data-aos-delay="200">
+                    <div class="vip-badge">VIP</div>
+                    <div class="ticket-header">
+                        <h3 class="ticket-name">VIP Exclusivo</h3>
+                        <p class="ticket-description">Experiência completa e diferenciada</p>
+                    </div>
+                    <div class="ticket-price">
+                        <span class="price-currency">R$</span>
+                        <span class="price-value">997</span>
+                        <span class="price-period">à vista</span>
+                    </div>
+                    <div class="ticket-installment">ou 12x de R$ 99,70</div>
+                    <ul class="ticket-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Tudo do plano Individual</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Área VIP com almoço</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Meet & Greet com palestrantes</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Kit premium exclusivo</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>30 min de consultoria</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z"/>
+                            </svg>
+                            <span>Gravação completa do evento</span>
+                        </li>
+                    </ul>
+                    <a href="ingressos.html" class="btn-primary btn-large cta-button">Garantir Ingresso VIP</a>
+                </div>
+            </div>
+
+            <div class="tickets-guarantee" data-aos="fade-up">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <div>
+                    <h3>Garantia Incondicional de 30 Dias</h3>
+                    <p>Se você não achar que valeu cada centavo investido, devolvemos 100% do seu dinheiro sem perguntas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="images/logo volmaster branco.jpg" alt="Imersão Volmaster" class="footer-logo" loading="lazy" style="max-width: 120px;">
+                        <h3 style="margin-top: 1rem; font-size: 1.5rem; font-weight: 700;">IMERSÃO <span class="gradient-text" style="background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">VOLMASTER</span></h3>
+                    </div>
+                    <p style="margin-top: 1rem; max-width: 300px;">Transformando oficinas em referências de mercado através de tecnologia, gestão e conhecimento.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#video-alan">Apresentação</a></li>
+                        <li><a href="#publico">Para Quem É</a></li>
+                        <li><a href="#palestrantes">Palestrantes</a></li>
+                        <li><a href="#ingressos">Ingressos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Informações</h3>
+                    <ul>
+                        <li>📍 Goiânia, GO</li>
+                        <li>📅 12 de Setembro 2026</li>
+                        <li>⏰ 8h às 14h</li>
+                        <li>📧 contato@imersaovolmaster.com.br</li>
+                        <li>📱 (62) 99999-9999</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Imersão <span class="gradient-text" style="background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Volmaster</span>. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

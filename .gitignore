@@ -1,0 +1,38 @@
+# .gitignore - Landing Page Imersão Volmaster
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários do editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependências (se houver)
+node_modules/
+bower_components/
+
+# Arquivos de build (se houver)
+dist/
+build/
+
+# Backups
+*.bak
+*.backup
+*-old.*
+*-backup.*
+
+# Arquivos de configuração local
+.env
+.env.local
+config.local.js
