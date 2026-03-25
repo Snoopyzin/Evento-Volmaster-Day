@@ -668,6 +668,229 @@
     color: var(--color-text);
 }
 
+/* ============================================ */
+/* INSTRUCTOR SECTION - ALAN DIEGO */
+/* ============================================ */
+
+.instructor-section {
+    padding: 80px 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(15,23,42,0.95) 100%);
+}
+
+.instructor-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.instructor-image {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px rgba(14, 165, 233, 0.2);
+}
+
+.instructor-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.instructor-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(14, 165, 233, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 12px 24px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.instructor-badge span {
+    font-weight: 600;
+    color: white;
+}
+
+.instructor-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.instructor-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.instructor-text p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.instructor-text .text-highlight {
+    color: #0ea5e9;
+}
+
+.instructor-highlight {
+    font-size: 1.25rem !important;
+    line-height: 1.8;
+    color: #0ea5e9;
+    font-weight: 600;
+    padding: 20px;
+    background: rgba(14, 165, 233, 0.1);
+    border-left: 4px solid #0ea5e9;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.instructor-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.instructor-stat {
+    text-align: center;
+    padding: 20px;
+    background: rgba(14, 165, 233, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(14, 165, 233, 0.2);
+    transition: all 0.3s ease;
+}
+
+.instructor-stat:hover {
+    transform: translateY(-5px);
+    border-color: rgba(14, 165, 233, 0.4);
+    box-shadow: 0 10px 30px rgba(14, 165, 233, 0.2);
+}
+
+.instructor-stat .stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.instructor-stat .stat-label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+}
+
+/* Responsividade para Tablet */
+@media (max-width: 768px) {
+    .instructor-section {
+        padding: 60px 0;
+    }
+    
+    .instructor-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .instructor-badge {
+        top: 15px;
+        left: 15px;
+        padding: 10px 20px;
+    }
+    
+    .instructor-badge svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .instructor-text p {
+        font-size: 1rem;
+    }
+    
+    .instructor-highlight {
+        font-size: 1.125rem !important;
+        padding: 15px;
+    }
+    
+    .instructor-stats {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    
+    .instructor-stat {
+        padding: 15px 10px;
+    }
+    
+    .instructor-stat .stat-value {
+        font-size: 2rem;
+    }
+    
+    .instructor-stat .stat-label {
+        font-size: 0.75rem;
+    }
+}
+
+/* Responsividade para Mobile */
+@media (max-width: 480px) {
+    .instructor-section {
+        padding: 40px 0;
+    }
+    
+    .instructor-container {
+        gap: 30px;
+    }
+    
+    .instructor-badge {
+        top: 10px;
+        left: 10px;
+        padding: 8px 16px;
+        font-size: 0.75rem;
+    }
+    
+    .instructor-badge svg {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .instructor-text {
+        gap: 1rem;
+    }
+    
+    .instructor-text p {
+        font-size: 0.9375rem;
+        line-height: 1.7;
+    }
+    
+    .instructor-highlight {
+        font-size: 1rem !important;
+        padding: 12px;
+        margin-top: 0.5rem;
+    }
+    
+    .instructor-stats {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .instructor-stat {
+        padding: 20px 15px;
+    }
+    
+    .instructor-stat .stat-value {
+        font-size: 2.5rem;
+    }
+    
+    .instructor-stat .stat-label {
+        font-size: 0.875rem;
+    }
+}
+
 .ticket-features li svg {
     flex-shrink: 0;
     margin-top: 2px;
