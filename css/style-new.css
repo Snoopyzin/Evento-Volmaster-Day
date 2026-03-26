@@ -1657,18 +1657,33 @@ body {
         height: 45px;
     }
     
-    /* Countdown adjustments */
+    /* Countdown adjustments - Layout 2x2 para mobile */
     .countdown {
-        gap: var(--space-sm);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-md);
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .countdown-divider {
+        display: none;
     }
     
     .countdown-item {
-        min-width: 70px;
-        padding: var(--space-sm);
+        background: rgba(255, 215, 0, 0.05);
+        border: 1px solid rgba(255, 215, 0, 0.2);
+        border-radius: var(--radius-lg);
+        padding: var(--space-md);
+        min-width: auto;
     }
     
     .countdown-value {
-        font-size: 2rem;
+        font-size: clamp(2rem, 8vw, 2.5rem);
+    }
+    
+    .countdown-label {
+        font-size: 11px;
     }
     
     /* Disable tilt effect on mobile */
