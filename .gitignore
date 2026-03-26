@@ -31,7 +31,6 @@ build/
 *.backup
 *-old.*
 *-backup.*
-*-novo.*
 *-temp.*
 *.tmp
 
