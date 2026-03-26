@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imersão Volmaster - O Maior Evento de Tecnologia</title>
+    <title>Imersão Volmaster - Evento de Capacitação Automotiva</title>
     <meta name="description" content="A Imersão Volmaster conecta empreendedores, investidores e profissionais de tecnologia em um dia de imersão em inovação, networking e experiências exclusivas.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style-new.css">
+    <link rel="stylesheet" href="css/premium-enhancements.css">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
     <script src="js/script-new.js" defer></script>
+    <script src="js/premium-effects.js" defer></script>
 </head>
 <body>
     <!-- Preloader -->
     <div class="preloader" id="preloader">
         <div class="preloader-content">
             <div class="preloader-logo">
-                <img src="images/logo volmaster branco.jpg" alt="Imersão Volmaster">
+                <img src="images/VOLMASTER 01.png" alt="Imersão Volmaster">
             </div>
             <div class="preloader-spinner">
                 <div class="spinner-ring"></div>
@@ -35,7 +37,7 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <img src="images/logo volmaster branco.jpg" alt="Imersão Volmaster" class="logo-img">
+                <img src="images/VOLMASTER 01.png" alt="Imersão Volmaster" class="logo-img">
             </div>
             
             <div class="nav-toggle" id="navToggle">
@@ -66,22 +68,21 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-bg"></div>
+        <div class="hero-bg" data-parallax="0.3"></div>
         <div class="hero-gradient"></div>
         
-        <div class="floating-shape shape-1"></div>
-        <div class="floating-shape shape-2"></div>
-        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-1" data-parallax="0.5"></div>
+        <div class="floating-shape shape-2" data-parallax="0.7"></div>
+        <div class="floating-shape shape-3" data-parallax="0.4"></div>
         
         <div class="container hero-container">
             <div class="hero-content">
                 <div class="hero-logo">
-                    <img src="images/logo volmaster branco.jpg" alt="Imersão Volmaster">
+                    <img src="images/VOLMASTER 01.png" alt="Imersão Volmaster">
                 </div>
                 
                 <h1 class="hero-title">
-                    Imersão Volmaster<br>
-                    <span class="gradient-text">O Maior Evento de Tecnologia</span>
+                    Imersão <span class="gold-text">Volmaster Tech</span>
                 </h1>
                 
                 <div class="hero-info">
@@ -97,15 +98,12 @@
                 </div>
                 
                 <p class="hero-description">
-                    O Volmaster Day conecta empreendedores, investidores e criadores em um dia de imersão em insights práticos, estratégias de alto impacto e exemplos reais de quem está navegando as mudanças do mercado com clareza e velocidade.
-                </p>
+                    O primeiro e maior evento para profissionais em manutenção de caminhões da linha Volvo
                 
-                <div class="hero-actions">
-                    <a href="#inscricao" class="btn-primary">
-                        Quero Participar
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                <!-- Ticket Preview -->
+                <div class="ticket-preview" data-aos="zoom-in" data-aos-delay="200">
+                    <a href="ingressos-novo.html" class="ticket-link">
+                        <img src="images/ticket evento.jpg" alt="Ingresso Imersão Volmaster Tech" class="ticket-image">
                     </a>
                 </div>
                 
@@ -134,178 +132,187 @@
         </div>
     </section>
 
-    <!-- 2️⃣ Apresentação do evento em vídeo (Alan) -->
-    <section class="video-presentation" id="video-alan">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <span class="section-badge">Apresentação Especial</span>
-                <h2 class="section-title">Conheça a Visão do <span class="gradient-text">Imersão Volmaster</span></h2>
-                <p class="section-description">
-                    Alan Campos, CEO da Volmaster Tech, convida você para esta experiência transformadora
-                </p>
-            </div>
-            
-            <div class="video-container" data-aos="fade-up" data-aos-delay="100">
-                <div class="video-wrapper">
-                    <iframe 
-                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                        title="Apresentação Imersão Volmaster - Alan Campos"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- 3️⃣ Texto explicativo + 1º Botão de ação -->
     <section class="event-intro" id="sobre">
         <div class="container">
             <div class="intro-content" data-aos="fade-up">
                 <h2 class="intro-title">
-                    Transforme a Gestão da Sua Oficina em <span class="gradient-text">6 Horas de Imersão Total</span>
+                    O Sucesso do seu futuro está aqui!<br>
+                    <span class="gradient-text">12 Horas de Imersão Total</span>
                 </h2>
                 <p class="intro-text">
-                    O Imersão Volmaster é mais do que um evento: é um divisor de águas para empresários, gestores e profissionais do setor automotivo que querem <strong>sair da estagnação e alcançar um novo patamar</strong>.
-                </p>
-                <p class="intro-text">
-                    Aqui você vai descobrir as estratégias exatas que transformam oficinas comuns em negócios de referência. Vamos mostrar como usar a tecnologia a seu favor, otimizar processos, aumentar a lucratividade e construir uma operação que funciona de forma previsível e escalável.
-                </p>
-                <p class="intro-text">
-                    Se você sente que trabalha muito e não vê os resultados que merece, se percebe o mercado mudando enquanto você fica para trás, ou se sabe que tem potencial mas não sabe como destravar o próximo nível — <strong>este evento foi feito para você</strong>.
+                    O primeiro evento totalmente pensado e voltado para atender as demandas de <strong class="text-highlight">empresários, donos de oficinas mecânicas e profissionais da manutenção da linha pesada Volvo</strong>.
                 </p>
                 
-                <div class="cta-box" data-aos="fade-up" data-aos-delay="100">
-                    <div class="cta-highlight">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                <div class="intro-benefits">
+                    <p class="benefit-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0L12.2451 7.75486H20L13.8775 12.7451L16.1225 20L10 15.0098L3.87746 20L6.12254 12.7451L0 7.75486H7.75486L10 0Z" fill="#FFD700"/>
                         </svg>
-                        <span>Últimas Vagas Disponíveis</span>
+                        <strong>Trabalhe menos e ganhe mais.</strong>
+                    </p>
+                    <p class="benefit-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0L12.2451 7.75486H20L13.8775 12.7451L16.1225 20L10 15.0098L3.87746 20L6.12254 12.7451L0 7.75486H7.75486L10 0Z" fill="#FFD700"/>
+                        </svg>
+                        <strong>Lidere sua equipe de maneira eficaz.</strong>
+                    </p>
+                    <p class="benefit-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0L12.2451 7.75486H20L13.8775 12.7451L16.1225 20L10 15.0098L3.87746 20L6.12254 12.7451L0 7.75486H7.75486L10 0Z" fill="#FFD700"/>
+                        </svg>
+                        <strong>Seja o mentor do seu negócio.</strong>
+                    </p>
+                    <p class="benefit-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0L12.2451 7.75486H20L13.8775 12.7451L16.1225 20L10 15.0098L3.87746 20L6.12254 12.7451L0 7.75486H7.75486L10 0Z" fill="#FFD700"/>
+                        </svg>
+                        <strong>Tenha qualidade de vida!</strong>
+                    </p>
+                </div>
+
+                <h3 class="intro-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Idealizamos esse evento para sua empresa:
+                </h3>
+
+                <ul class="intro-goals" data-aos="fade-up" data-aos-delay="300">
+                    <li class="goal-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Sair do amadorismo</span>
+                    </li>
+                    <li class="goal-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Exercer excelência</span>
+                    </li>
+                    <li class="goal-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Ser vista</span>
+                    </li>
+                    <li class="goal-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Se tornar autoridade</span>
+                    </li>
+                    <li class="goal-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Fazer parte de algo maior</span>
+                    </li>
+                    <li class="goal-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Se manter nesse lugar e avançar sempre! Nunca reduzir!</span>
+                    </li>
+                </ul>
+                
+                <div class="intro-cta-section" data-aos="fade-up" data-aos-delay="100">
+                    <div class="ticket-preview-intro">
+                        <a href="ingressos-novo.html" class="ticket-link">
+                            <img src="images/ticket evento.jpg" alt="Ingresso Imersão Volmaster Tech" class="ticket-image">
+                        </a>
                     </div>
-                    <a href="#ingressos" class="btn-primary btn-large">
-                        Quero Meu Ingresso Agora
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 4️⃣ Para quem é o evento -->
-    <section class="target-audience" id="publico">
+    <!-- 4️⃣ Para quem é o evento - NOVO DESIGN -->
+    <section class="target-audience-new" id="publico">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <span class="section-badge">Público-Alvo</span>
-                <h2 class="section-title">Pra Quem É o Evento</h2>
-                <p class="section-description">
+                <h2 class="section-title-large">Pra Quem É o Evento</h2>
+                <p class="section-subtitle">
                     Este evento foi desenhado especificamente para dois perfis de profissionais do setor automotivo
                 </p>
             </div>
             
-            <div class="audience-grid" data-aos="fade-up" data-aos-delay="100">
-                <!-- Empresários donos de oficina -->
-                <div class="audience-block">
-                    <div class="audience-header">
-                        <div class="audience-icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <div class="audience-columns" data-aos="fade-up" data-aos-delay="100">
+                <!-- Coluna 1: Dono de oficina -->
+                <div class="audience-column">
+                    <div class="audience-column-header">
+                        <div class="audience-icon-wrapper">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
                             </svg>
                         </div>
-                        <h3 class="audience-title">Você Empresário Dono de Oficina</h3>
+                        <h3 class="audience-column-title">Dono de oficina</h3>
                     </div>
-                    <ul class="audience-list">
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Você que criou sua empresa do zero</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Cresceu muito e tem dificuldades na administração</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Sente que precisa avançar, ir para um novo nível</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Sabe que o que te trouxe até aqui não é suficiente para te levar além</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Está vendo o mercado mudar e você está estagnado</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Sabe que tem potencial e deseja ver sua empresa sendo referência</span>
-                        </li>
-                    </ul>
+                    
+                    <div class="checklist-items">
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Você que criou sua empresa do zero</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Cresceu muito e tem dificuldades na administração</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Sente que precisa avançar, ir para um novo nível</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Sabe que o que te trouxe até aqui não é suficiente para te levar além</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Está vendo o mercado mudar e você está estagnado</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Sabe que tem potencial e deseja ver sua empresa sendo referência</div>
+                        </div>
+                    </div>
                 </div>
-
-                <!-- Gerentes, chefes, mecânicos e eletricistas -->
-                <div class="audience-block">
-                    <div class="audience-header">
-                        <div class="audience-icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                
+                <!-- Coluna 2: Gerente e chefe de oficina, mecânicoa -->
+                <div class="audience-column">
+                    <div class="audience-column-header">
+                        <div class="audience-icon-wrapper">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
                             </svg>
                         </div>
-                        <h3 class="audience-title">Você Gerente, Chefe de Oficina, Mecânico e Eletricista</h3>
+                        <h3 class="audience-column-title">Gerente e chefe de oficina, mecânicoa</h3>
                     </div>
-                    <ul class="audience-list">
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Você que é um ótimo profissional, mas trabalha muito e ganha pouco</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Você que busca ser o melhor na sua área de atuação</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Você que é o principal interessado no seu crescimento profissional</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Você que não quer ficar parado no tempo e deseja acompanhar as evoluções</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Você que quer trabalhar menos e ganhar mais</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 0L12.7 6.5L20 7.3L15 12L16.2 19.5L10 15.8L3.8 19.5L5 12L0 7.3L7.3 6.5L10 0Z"/>
-                            </svg>
-                            <span>Você que sabe que o mundo é dos espertos, mas o mercado é dos que avançam</span>
-                        </li>
-                    </ul>
+                    
+                    <div class="checklist-items">
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Você que é um ótimo profissional, mas trabalha muito e ganha pouco</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Você que busca ser o melhor na sua área de atuação</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Você que é o principal interessado no seu crescimento profissional</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Você que não quer ficar parado no tempo e deseja acompanhar as evoluções</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Você que quer trabalhar menos e ganhar mais</div>
+                        </div>
+                        <div class="checklist-item yellow-flag">
+                            <span class="check-icon">✅</span>
+                            <div class="checklist-line yellow-text">Você que sabe que o mundo é dos espertos, mas o mercado é dos que avançam</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -324,7 +331,7 @@
                             <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                         </svg>
                     </div>
-                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-number" data-target="1000" data-count="1000" data-suffix="+">0</div>
                     <div class="stat-label">Participantes Esperados</div>
                 </div>
                 
@@ -334,8 +341,8 @@
                             <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                         </svg>
                     </div>
-                    <div class="stat-number" data-target="20">0</div>
-                    <div class="stat-label">Palestrantes Expert</div>
+                    <div class="stat-number" data-target="8" data-count="8" data-suffix="+">0</div>
+                    <div class="stat-label">Palestrantes</div>
                 </div>
                 
                 <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
@@ -347,7 +354,7 @@
                             <line x1="3" y1="10" x2="21" y2="10"></line>
                         </svg>
                     </div>
-                    <div class="stat-number" data-target="12">0</div>
+                    <div class="stat-number" data-target="12" data-count="12" data-suffix="+">0</div>
                     <div class="stat-label">Horas de Conteúdo</div>
                 </div>
                 
@@ -358,7 +365,7 @@
                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                     </div>
-                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-number" data-target="100" data-count="100" data-suffix="%">0</div>
                     <div class="stat-label">% Networking</div>
                 </div>
             </div>
@@ -377,7 +384,7 @@
             </div>
 
             <div class="benefits-grid">
-                <div class="benefit-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="benefit-card fade-in-bounce" data-aos="fade-up" data-aos-delay="0">
                     <div class="benefit-number">01</div>
                     <div class="benefit-icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -391,7 +398,7 @@
                     </p>
                 </div>
 
-                <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="benefit-card fade-in-bounce" data-aos="fade-up" data-aos-delay="100">
                     <div class="benefit-number">02</div>
                     <div class="benefit-icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -407,7 +414,7 @@
                     </p>
                 </div>
 
-                <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="benefit-card fade-in-bounce" data-aos="fade-up" data-aos-delay="200">
                     <div class="benefit-number">03</div>
                     <div class="benefit-icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -420,7 +427,7 @@
                     </p>
                 </div>
 
-                <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="benefit-card fade-in-bounce" data-aos="fade-up" data-aos-delay="300">
                     <div class="benefit-number">04</div>
                     <div class="benefit-icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -434,7 +441,7 @@
                     </p>
                 </div>
 
-                <div class="benefit-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="benefit-card fade-in-bounce" data-aos="fade-up" data-aos-delay="400">
                     <div class="benefit-number">05</div>
                     <div class="benefit-icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -447,7 +454,7 @@
                     </p>
                 </div>
 
-                <div class="benefit-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="benefit-card fade-in-bounce" data-aos="fade-up" data-aos-delay="500">
                     <div class="benefit-number">06</div>
                     <div class="benefit-icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -476,7 +483,7 @@
                 </p>
             </div>
             <div class="speakers-grid">
-                <div class="speaker-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="speaker-card fade-in-bounce" data-aos="fade-up" data-aos-delay="0">
                     <div class="speaker-image">
                         <img src="images/evento 1.jpeg" alt="Alan Campos" loading="lazy">
                         <div class="speaker-overlay"></div>
@@ -486,9 +493,9 @@
                         <p class="speaker-role">Instrutor Técnico</p>
                     </div>
                 </div>
-                <div class="speaker-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="speaker-card fade-in-bounce" data-aos="fade-up" data-aos-delay="100">
                     <div class="speaker-image">
-                        <img src="images/evento 3 Kezia.jpeg" alt="Kezia Campos" loading="lazy">
+                        <img src="images/evento 3 Kezia.jpg" alt="Kezia Campos" loading="lazy">
                         <div class="speaker-overlay"></div>
                     </div>
                     <div class="speaker-info">
@@ -496,7 +503,7 @@
                         <p class="speaker-role">A definir</p>
                     </div>
                 </div>
-                <div class="speaker-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="speaker-card fade-in-bounce" data-aos="fade-up" data-aos-delay="200">
                     <div class="speaker-image">
                         <img src="images/palestrante lais.jpeg" alt="Dr. Lais Torres" loading="lazy">
                         <div class="speaker-overlay"></div>
@@ -506,7 +513,7 @@
                         <p class="speaker-role">Advogada especializada em oficinas de caminhão</p>
                     </div>
                 </div>
-                <div class="speaker-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="speaker-card fade-in-bounce" data-aos="fade-up" data-aos-delay="300">
                     <div class="speaker-image">
                         <img src="images/palestrante bruno.jpeg" alt="Dr. Alex Brunno" loading="lazy">
                         <div class="speaker-overlay"></div>
@@ -533,45 +540,52 @@
             <div class="schedule-date" data-aos="fade-up">12 Setembro 2026</div>
             <div class="schedule-content" id="scheduleContent">
                 <div class="schedule-item" data-aos="fade-up" data-aos-delay="0">
-                    <div class="schedule-time">09:00 - 10:00</div>
+                    <div class="schedule-time">08:00 - 08:30</div>
                     <div class="schedule-details">
                         <h4>Abertura e Credenciamento</h4>
                         <p>Recepção dos participantes e entrega de materiais</p>
                     </div>
                 </div>
                 <div class="schedule-item" data-aos="fade-up" data-aos-delay="100">
-                    <div class="schedule-time">10:00 - 11:30</div>
+                    <div class="schedule-time">09:00 - 10:00</div>
                     <div class="schedule-details">
-                        <h4>Palestra Principal</h4>
-                        <p>Conteúdo a ser definido</p>
+                        <h4>Palestra Alan Volmaster</h4>
+                        <p>Conteúdo exclusivo com Alan Volmaster</p>
                     </div>
                 </div>
                 <div class="schedule-item" data-aos="fade-up" data-aos-delay="200">
-                    <div class="schedule-time">11:30 - 13:00</div>
+                    <div class="schedule-time">10:00 - 10:30</div>
                     <div class="schedule-details">
-                        <h4>Workshop Técnico</h4>
-                        <p>Conteúdo a ser definido</p>
+                        <h4>Convidados</h4>
+                        <p>Apresentações especiais dos convidados</p>
                     </div>
                 </div>
                 <div class="schedule-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="schedule-time">13:00 - 14:00</div>
+                    <div class="schedule-time">11:00 - 12:00</div>
                     <div class="schedule-details">
-                        <h4>Intervalo e Networking</h4>
-                        <p>Momento para networking e alimentação</p>
+                        <h4>Workshop práticas</h4>
+                        <p>Práticas e técnicas para aplicação imediata</p>
                     </div>
                 </div>
                 <div class="schedule-item" data-aos="fade-up" data-aos-delay="400">
-                    <div class="schedule-time">14:00 - 16:00</div>
+                    <div class="schedule-time">12:00 - 14:00</div>
                     <div class="schedule-details">
-                        <h4>Painéis de Discussão</h4>
-                        <p>Debates com especialistas da área</p>
+                        <h4>Networking e almoço</h4>
+                        <p>Momento de conexão com outros profissionais</p>
                     </div>
                 </div>
                 <div class="schedule-item" data-aos="fade-up" data-aos-delay="500">
-                    <div class="schedule-time">16:00 - 18:00</div>
+                    <div class="schedule-time">14:00 - 15:00</div>
                     <div class="schedule-details">
-                        <h4>Encerramento e Sorteios</h4>
-                        <p>Considerações finais e premiações</p>
+                        <h4>Palestra Convidados</h4>
+                        <p>Conteúdos especiais com palestrantes convidados</p>
+                    </div>
+                </div>
+                <div class="schedule-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="schedule-time">17:00 - 18:00</div>
+                    <div class="schedule-details">
+                        <h4>Alan responde ao vivo</h4>
+                        <p>Sessão interativa de perguntas e respostas</p>
                     </div>
                 </div>
             </div>
@@ -766,7 +780,7 @@
             </div>
 
             <div class="gallery-grid">
-                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="0">
+                <div class="gallery-item fade-in-bounce" data-aos="zoom-in" data-aos-delay="0">
                     <img src="images/evento 1.jpeg" alt="Momento do Evento" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-icon">
@@ -780,8 +794,8 @@
                     </div>
                 </div>
 
-                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="images/evento 3 Kezia.jpeg" alt="Momento do Evento" loading="lazy">
+                <div class="gallery-item fade-in-bounce" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/evento 3 Kezia.jpg" alt="Momento do Evento" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-icon">
                             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -794,7 +808,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item gallery-wide" data-aos="zoom-in" data-aos-delay="200">
+                <div class="gallery-item gallery-wide fade-in-bounce" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800" alt="Momento do Evento" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-icon">
@@ -808,7 +822,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="gallery-item fade-in-bounce" data-aos="zoom-in" data-aos-delay="300">
                     <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600" alt="Momento do Evento" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-icon">
@@ -822,7 +836,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                <div class="gallery-item fade-in-bounce" data-aos="zoom-in" data-aos-delay="400">
                     <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600" alt="Momento do Evento" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-icon">
@@ -836,7 +850,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                <div class="gallery-item fade-in-bounce" data-aos="zoom-in" data-aos-delay="500">
                     <img src="https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=600" alt="Momento do Evento" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-icon">
@@ -863,9 +877,19 @@
                 </p>
                 <div class="cta-price">
                     <span class="price-label">Investimento</span>
-                    <span class="price-value">R$ 497</span>
-                    <span class="price-installment">ou 12x de R$ 49,70</span>
+                    <span class="price-value">R$ 997,00</span>
+                    <span class="price-value" style="font-size: 2.5rem; margin-top: -1rem;">1º lote</span>
+                    <span class="price-installment">à vista ou pix</span>
+                    <span class="price-installment">ou 2x 498,50 no cartão</span>
                 </div>
+                
+                <!-- Ticket Preview CTA -->
+                <div class="ticket-preview-cta" data-aos="flip-up" data-aos-delay="100">
+                    <a href="ingressos-novo.html" class="ticket-link-cta">
+                        <img src="images/ticket evento.jpg" alt="Ingresso Imersão Volmaster Tech" class="ticket-image-cta">
+                    </a>
+                </div>
+                
                 <div class="cta-buttons">
                     <a href="#" class="btn-primary btn-large">
                         Garantir Minha Vaga Agora
@@ -940,7 +964,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-brand">
-                        <img src="images/logo volmaster branco.jpg" alt="Imersão Volmaster" class="footer-logo" loading="lazy" style="max-width: 120px;">
+                        <img src="images/VOLMASTER 01.png" alt="Imersão Volmaster" class="footer-logo" loading="lazy" style="max-width: 120px;">
                         <h3 style="margin-top: 1rem; font-size: 1.5rem; font-weight: 700;">IMERSÃO VOLMASTER</h3>
                     </div>
                     <p style="margin-top: 1rem; max-width: 300px;">Criando experiências memoráveis através de eventos de tecnologia e inovação.</p>

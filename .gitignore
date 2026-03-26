@@ -26,13 +26,25 @@ bower_components/
 dist/
 build/
 
-# Backups
+# Backups e arquivos temporários
 *.bak
 *.backup
 *-old.*
 *-backup.*
+*-novo.*
+*-temp.*
+*.tmp
 
 # Arquivos de configuração local
 .env
 .env.local
 config.local.js
+
+# Arquivos de documentação de desenvolvimento
+ESTRUTURA-SITE.md
+QUICK-START.md
+UPLOAD-GITHUB.md
+
+# Cache
+.cache/
+*.cache

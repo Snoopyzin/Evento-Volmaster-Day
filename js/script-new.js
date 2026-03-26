@@ -301,7 +301,7 @@ window.addEventListener('load', () => {
                     }
                 },
                 color: {
-                    value: '#0ea5e9'
+                    value: '#FFD700'
                 },
                 shape: {
                     type: 'circle'
@@ -329,8 +329,8 @@ window.addEventListener('load', () => {
                 line_linked: {
                     enable: true,
                     distance: 150,
-                    color: '#0ea5e9',
-                    opacity: 0.1,
+                    color: '#FFD700',
+                    opacity: 0.15,
                     width: 1
                 },
                 move: {
@@ -380,6 +380,7 @@ window.addEventListener('load', () => {
 function animateCounter(element, target, duration = 2000) {
     const startTime = performance.now();
     const startValue = 0;
+    const suffix = element.dataset.suffix || '';
     
     function updateCounter(currentTime) {
         const elapsed = currentTime - startTime;
@@ -389,12 +390,12 @@ function animateCounter(element, target, duration = 2000) {
         const easeOutQuart = 1 - Math.pow(1 - progress, 4);
         const currentValue = Math.floor(startValue + (target - startValue) * easeOutQuart);
         
-        element.textContent = currentValue + (target >= 100 && element.dataset.target == target ? '%' : '+');
+        element.textContent = currentValue + suffix;
         
         if (progress < 1) {
             requestAnimationFrame(updateCounter);
         } else {
-            element.textContent = target + (target >= 100 && element.dataset.target == target ? '%' : '+');
+            element.textContent = target + suffix;
         }
     }
     
@@ -402,18 +403,19 @@ function animateCounter(element, target, duration = 2000) {
 }
 
 // Observe stat numbers
-const statNumbers = document.querySelectorAll('.stat-number');
-const statsObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
-            entry.target.classList.add('counted');
-            const target = parseInt(entry.target.dataset.target);
-            animateCounter(entry.target, target);
-        }
-    });
-}, { threshold: 0.5 });
+// Observe stat numbers - Disabled: handled by premium-effects.js
+// const statNumbers = document.querySelectorAll('.stat-number');
+// const statsObserver = new IntersectionObserver((entries) => {
+//     entries.forEach(entry => {
+//         if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+//             entry.target.classList.add('counted');
+//             const target = parseInt(entry.target.dataset.target);
+//             animateCounter(entry.target, target);
+//         }
+//     });
+// }, { threshold: 0.5 });
 
-statNumbers.forEach(num => statsObserver.observe(num));
+// statNumbers.forEach(num => statsObserver.observe(num));
 
 // ============================================
 // TESTIMONIALS SLIDER
@@ -751,6 +753,8 @@ function typeWriter(element, text, speed = 100) {
 }
 
 // Apply typing effect after page load
+// COMENTADO: Este efeito estava removendo o HTML do título e quebrando o estilo dourado
+/*
 window.addEventListener('load', () => {
     setTimeout(() => {
         const heroTitle = document.querySelector('.hero-title');
@@ -760,6 +764,7 @@ window.addEventListener('load', () => {
         }
     }, 2000); // Start after preloader
 });
+*/
 
 // ============================================
 // SCROLL TO TOP BUTTON
