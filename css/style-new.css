@@ -707,7 +707,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: var(--space-lg);
+    gap: var(--space-md);
     opacity: 0;
     animation: fadeInUp 1s ease-out 1.2s forwards;
 }
@@ -716,32 +716,55 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: var(--space-xs);
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 215, 0, 0.4);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg) var(--space-md);
+    min-width: 90px;
+    position: relative;
+    backdrop-filter: blur(5px);
+    box-shadow: 
+        0 4px 20px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .countdown-value {
-    font-size: clamp(2rem, 5vw, 3rem);
-    font-weight: 700;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 900;
     line-height: 1;
-    background: var(--gradient-text);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #FFD700;
     font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
 }
 
 .countdown-label {
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
-   letter-spacing: 0.1em;
-    color: var(--color-text-muted);
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 600;
 }
 
 .countdown-divider {
-    width: 2px;
-    height: 40px;
-    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.3), transparent);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
 }
 
 /* ============================================ */
@@ -1662,7 +1685,7 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--space-md);
-        max-width: 350px;
+        max-width: 340px;
         margin: 0 auto;
     }
     
@@ -1671,19 +1694,16 @@ body {
     }
     
     .countdown-item {
-        background: rgba(255, 215, 0, 0.05);
-        border: 1px solid rgba(255, 215, 0, 0.2);
-        border-radius: var(--radius-lg);
-        padding: var(--space-md);
         min-width: auto;
+        padding: var(--space-lg) var(--space-sm);
     }
     
     .countdown-value {
-        font-size: clamp(2rem, 8vw, 2.5rem);
+        font-size: clamp(2.2rem, 9vw, 3rem);
     }
     
     .countdown-label {
-        font-size: 11px;
+        font-size: 10px;
     }
     
     /* Disable tilt effect on mobile */
