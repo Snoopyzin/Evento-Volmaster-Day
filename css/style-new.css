@@ -2859,11 +2859,6 @@ body {
         gap: var(--space-md);
     }
     
-    .lote-card:nth-child(3) {
-        grid-column: 1;
-        max-width: 100%;
-    }
-    
     .lote-card {
         padding: var(--space-lg);
     }
