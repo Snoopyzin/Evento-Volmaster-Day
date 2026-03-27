@@ -2756,6 +2756,109 @@ body {
 }
 
 /* ============================================ */
+/* PRICING LOTES */
+/* ============================================ */
+
+.pricing-lotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-lg);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    z-index: 1;
+}
+
+.lote-card {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(0, 21, 41, 0.8) 100%);
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.lote-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.2) 0%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: -1;
+}
+
+.lote-card:hover {
+    transform: translateY(-10px);
+    border-color: rgba(255, 215, 0, 0.8);
+    box-shadow: 0 20px 50px rgba(255, 215, 0, 0.3),
+                0 0 40px rgba(255, 215, 0, 0.2);
+}
+
+.lote-card:hover::before {
+    opacity: 1;
+}
+
+.lote-badge {
+    display: inline-block;
+    background: var(--gradient-accent);
+    color: #000;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    padding: var(--space-xs) var(--space-md);
+    border-radius: var(--radius-full);
+    margin-bottom: var(--space-md);
+    text-transform: uppercase;
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+}
+
+.lote-price {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    font-weight: 900;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--space-sm);
+    line-height: 1.2;
+}
+
+.lote-installment {
+    font-size: 0.95rem;
+    color: var(--color-text);
+    margin-bottom: var(--space-xs);
+    font-weight: 500;
+}
+
+.lote-installment-card {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    font-weight: 400;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .pricing-lotes {
+        grid-template-columns: 1fr;
+        gap: var(--space-md);
+    }
+    
+    .lote-card {
+        padding: var(--space-lg);
+    }
+    
+    .lote-price {
+        font-size: 2rem;
+    }
+}
+
+/* ============================================ */
 /* TICKET PREVIEW - CTA */
 /* ============================================ */
 
