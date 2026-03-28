@@ -84,6 +84,96 @@ body {
 }
 
 /* ============================================ */
+/* LANGUAGE SELECTOR */
+/* ============================================ */
+
+.language-selector {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    gap: 8px;
+    background: linear-gradient(135deg, rgba(0, 21, 41, 0.95) 0%, rgba(0, 8, 20, 0.95) 100%);
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.language-selector:hover {
+    border-color: rgba(255, 215, 0, 0.6);
+    box-shadow: 0 10px 50px rgba(255, 215, 0, 0.3);
+}
+
+.language-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: 2px solid transparent;
+    padding: 8px 12px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.language-btn img {
+    width: 24px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.language-btn:hover {
+    background: rgba(255, 215, 0, 0.1);
+    border-color: rgba(255, 215, 0, 0.4);
+    color: var(--color-gold);
+    transform: translateY(-2px) scale(1.05);
+}
+
+.language-btn.active {
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+    border-color: var(--color-gold);
+    color: var(--color-black);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5);
+    font-weight: 700;
+}
+
+.language-btn.active:hover {
+    transform: translateY(-2px) scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .language-selector {
+        top: 10px;
+        right: 10px;
+        padding: 6px;
+        gap: 6px;
+    }
+    
+    .language-btn {
+        padding: 6px 10px;
+        font-size: 0.75rem;
+    }
+    
+    .language-btn img {
+        width: 20px;
+        height: 14px;
+    }
+    
+    .language-btn span {
+        display: none;
+    }
+}
+
+/* ============================================ */
 /* HERO SECTION COM IMAGEM DE PLATEIA */
 /* ============================================ */
 

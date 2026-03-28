@@ -10,8 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/ingressos-style.css">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="js/i18n.js" defer></script>
 </head>
 <body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="language-btn active" data-lang="pt-br" title="Português Brasil">
+            <img src="https://flagcdn.com/w40/br.png" alt="Português">
+            <span>PT</span>
+        </button>
+        <button class="language-btn" data-lang="en-us" title="English USA">
+            <img src="https://flagcdn.com/w40/us.png" alt="English">
+            <span>EN</span>
+        </button>
+        <button class="language-btn" data-lang="es-es" title="Español España">
+            <img src="https://flagcdn.com/w40/es.png" alt="Español">
+            <span>ES</span>
+        </button>
+    </div>
+
     <!-- Particles Background -->
     <div id="particles-js"></div>
 
@@ -19,19 +36,19 @@
     <section class="hero-ingressos">
         <div class="container">
             <div class="hero-content-ingressos">
-                <span class="hero-badge">Imersão Volmaster Tech</span>
+                <span class="hero-badge" data-i18n="ticket-hero-badge">Imersão Volmaster Tech</span>
                 
-                <h1 class="hero-title-ingressos">
+                <h1 class="hero-title-ingressos" data-i18n="ticket-hero-title">
                     1 dia de imersão presencial que vai transformar sua empresa
                 </h1>
                 
-                <p class="hero-subtitle">
+                <p class="hero-subtitle" data-i18n="ticket-hero-subtitle">
                     Descubra como tecnologia, gestão e inovação podem te ajudar a dominar seu mercado, 
                     encontrar seu propósito e tomar decisões que realmente mudam o jogo na sua empresa e carreira. 
                     Vagas limitadas para esta jornada única.
                 </p>
 
-                <a href="#inscricao" class="hero-cta">QUERO PARTICIPAR</a>
+                <a href="#inscricao" class="hero-cta" data-i18n="ticket-participate">QUERO PARTICIPAR</a>
 
                 <!-- Contador de Urgência -->
                 <div class="urgency-banner">
@@ -42,8 +59,8 @@
                         </svg>
                     </div>
                     <div class="urgency-text">
-                        <strong>⚡ Apenas 47 vagas restantes!</strong>
-                        <span>Garanta sua vaga antes que esgote</span>
+                        <strong data-i18n="ticket-urgency">⚡ Apenas 47 vagas restantes!</strong>
+                        <span data-i18n="ticket-urgency-sub">Garanta sua vaga antes que esgote</span>
                     </div>
                 </div>
 
@@ -53,7 +70,7 @@
                             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                             <circle cx="12" cy="10" r="3"/>
                         </svg>
-                        Goiânia, GO
+                        <span data-i18n="hero-location">Goiânia, GO</span>
                     </div>
                     <div class="hero-info-item">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -62,14 +79,14 @@
                             <line x1="8" y1="2" x2="8" y2="6"/>
                             <line x1="3" y1="10" x2="21" y2="10"/>
                         </svg>
-                        12 de Setembro, 2026
+                        <span data-i18n="hero-date">12 de Setembro, 2026</span>
                     </div>
                     <div class="hero-info-item">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <circle cx="12" cy="12" r="10"/>
                             <polyline points="12 6 12 12 16 14"/>
                         </svg>
-                        à partir das 09h
+                        <span data-i18n="ticket-time">à partir das 09h</span>
                     </div>
                 </div>
             </div>
