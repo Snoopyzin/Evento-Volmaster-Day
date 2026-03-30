@@ -500,6 +500,9 @@ function changeLanguage(lang) {
     console.log('✅ Idioma alterado com sucesso!');
 }
 
+// Torna a função global para uso inline
+window.changeLanguage = changeLanguage;
+
 // Função de inicialização
 function initializeLanguageSystem() {
     console.log('🌐 Sistema i18n inicializando...');
@@ -537,53 +540,21 @@ function initializeLanguageSystem() {
         const lang = btn.getAttribute('data-lang');
         console.log(`   Botão ${index + 1}: ${lang}`);
         
-        // Remove event listeners anteriores (se existirem)
-        btn.replaceWith(btn.cloneNode(true));
-    });
-    
-    // Pega novamente os botões após clonar
-    const freshButtons = document.querySelectorAll('.language-btn');
-    freshButtons.forEach((btn) => {
-        const lang = btn.getAttribute('data-lang');
-        
-        // Adiciona o event listener com capture: true para processar antes de outros
-        btn.addEventListener('click', (e) => {
+        // Adiciona event listener único
+        btn.addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation();
-            e.stopImmediatePropagation();
             console.log('🖱️ Clique detectado no botão:', lang);
             changeLanguage(lang);
-            return false;
-        }, { capture: true });
-        
-        // Adiciona também um listener normal como backup
-        btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            changeLanguage(lang);
         });
-        
-        // Marca como inicializado
-        btn.setAttribute('data-i18n-initialized', 'true');
     });
     
     console.log('✅ Sistema i18n inicializado com sucesso!');
 }
 
-// Múltiplos métodos de inicialização para garantir que funcione
+// Inicialização quando o DOM estiver pronto
 if (document.readyState === 'loading') {
-    // DOM ainda carregando
     document.addEventListener('DOMContentLoaded', initializeLanguageSystem);
 } else {
-    // DOM já está pronto
     initializeLanguageSystem();
 }
-
-// Fallback adicional por segurança
-setTimeout(() => {
-    const buttons = document.querySelectorAll('.language-btn');
-    if (buttons.length > 0 && !buttons[0].hasAttribute('data-i18n-initialized')) {
-        console.log('🔄 Executando inicialização de fallback...');
-        buttons.forEach(btn => btn.setAttribute('data-i18n-initialized', 'true'));
-        initializeLanguageSystem();
-    }
-}, 1000);

@@ -174,15 +174,15 @@
 
             <!-- Language Selector -->
             <div class="language-selector">
-                <button class="language-btn active" data-lang="pt-br" title="Português Brasil">
+                <button class="language-btn active" data-lang="pt-br" title="Português Brasil" onclick="if(window.changeLanguage) window.changeLanguage('pt-br')">
                     <img src="https://flagcdn.com/w40/br.png" alt="Português">
                     <span>PT</span>
                 </button>
-                <button class="language-btn" data-lang="en-us" title="English USA">
+                <button class="language-btn" data-lang="en-us" title="English USA" onclick="if(window.changeLanguage) window.changeLanguage('en-us')">
                     <img src="https://flagcdn.com/w40/us.png" alt="English">
                     <span>EN</span>
                 </button>
-                <button class="language-btn" data-lang="es-es" title="Español España">
+                <button class="language-btn" data-lang="es-es" title="Español España" onclick="if(window.changeLanguage) window.changeLanguage('es-es')">
                     <img src="https://flagcdn.com/w40/es.png" alt="Español">
                     <span>ES</span>
                 </button>
@@ -756,25 +756,13 @@
 
                 <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
                     <button class="faq-question">
-                        <span>Posso cancelar minha inscrição?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="faq-icon">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Sim! Você pode cancelar sua inscrição até 30 dias antes do evento e receber 100% do valor de volta. Entre 30 e 15 dias, o reembolso é de 50%. Após esse período, não há reembolso, mas você pode transferir para outra pessoa.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
-                    <button class="faq-question">
                         <span>Haverá vagas limitadas?</span>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="faq-icon">
                             <polyline points="6 9 12 15 18 9"></polyline>
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Sim! Para garantir uma experiência de qualidade e networking efetivo, limitamos o número de participantes a 500 pessoas. As inscrições se esgotam rapidamente, então recomendamos garantir sua vaga o quanto antes.</p>
+                        <p>Sim! Para garantir uma experiência de qualidade e networking efetivo, limitamos o número de participantes a mais de mil pessoas. As inscrições se esgotam rapidamente, então recomendamos garantir sua vaga o quanto antes.</p>
                     </div>
                 </div>
 
