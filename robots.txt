@@ -1,0 +1,99 @@
+# User-agent: *
+# Robots.txt para Landing Page Imersão Volmaster Tech
+
+# Permitir todos os crawlers
+User-agent: *
+Allow: /
+
+# Páginas principais
+Allow: /index.html
+Allow: /ingressos-novo.html
+
+# Recursos estáticos
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Bloquear arquivos de sistema e documentação
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: /*.md$
+Disallow: /.gitignore
+Disallow: /package.json
+Disallow: /package-lock.json
+
+# Bloquear arquivos temporários
+Disallow: /*.tmp
+Disallow: /*.bak
+Disallow: /*.backup
+Disallow: /*~
+
+# Crawl-delay para não sobrecarregar o servidor
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://seu-usuario.github.io/landing-page-volmaster/sitemap.xml
+
+# Agentes específicos do Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Google Adsense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# Telegram
+User-agent: TelegramBot
+Allow: /
+
+# Bloquear scraping malicioso
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: proximic
+Disallow: /
+
+# Observações:
+# - Atualize a URL do sitemap após o deploy
+# - Este arquivo controla o comportamento dos crawlers
+# - Não garante privacidade total, apenas orienta crawlers bem comportados

@@ -1,0 +1,104 @@
+{
+  "name": "landing-page-volmaster",
+  "version": "2.0.0",
+  "description": "Landing page moderna e interativa para o evento Imersão Volmaster Tech - O maior evento de tecnologia automotiva do Brasil",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=index.html",
+    "serve": "python -m http.server 8000",
+    "validate": "echo 'Validando HTML...' && npx html-validator --file=index.html --file=ingressos-novo.html"
+  },
+  "keywords": [
+    "landing-page",
+    "event",
+    "volmaster",
+    "automotive",
+    "tecnologia-automotiva",
+    "gestao-oficinas",
+    "evento-tech",
+    "imersao",
+    "capacitacao",
+    "caminhoes-volvo",
+    "manutencao-pesada",
+    "goiania",
+    "brasil"
+  ],
+  "author": {
+    "name": "Volmaster Tech",
+    "email": "contato@volmasterday.com",
+    "url": "https://volmaster.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/landing-page-volmaster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/landing-page-volmaster/issues",
+    "email": "suporte@volmasterday.com"
+  },
+  "homepage": "https://seu-usuario.github.io/landing-page-volmaster/",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "config": {
+    "event": {
+      "name": "Imersão Volmaster Tech",
+      "date": "2026-09-12",
+      "location": "Goiânia, GO, Brasil",
+      "duration": "12 horas"
+    }
+  },
+  "technologies": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript ES6+"
+    ],
+    "libraries": [
+      "Particles.js 2.0.0",
+      "Google Fonts (Inter)"
+    ],
+    "tools": [
+      "GitHub Pages",
+      "GitHub Actions",
+      "Git"
+    ]
+  },
+  "features": [
+    "Design moderno e responsivo",
+    "Animações premium com GPU acceleration",
+    "Sistema de internacionalização (PT, EN, ES)",
+    "Contador regressivo dinâmico",
+    "Preview de tickets interativo",
+    "FAQ com accordion animado",
+    "Carrossel de depoimentos",
+    "SEO otimizado",
+    "Acessibilidade WCAG AA",
+    "Performance otimizada"
+  ],
+  "browserSupport": {
+    "chrome": ">=90",
+    "firefox": ">=88",
+    "safari": ">=14",
+    "edge": ">=90",
+    "opera": ">=76"
+  },
+  "performance": {
+    "lighthouse": {
+      "performance": "95+",
+      "accessibility": "95+",
+      "bestPractices": "100",
+      "seo": "100"
+    }
+  },
+  "contact": {
+    "website": "https://volmaster.com.br",
+    "email": "contato@volmasterday.com",
+    "support": "suporte@volmasterday.com",
+    "sales": "vendas@volmasterday.com"
+  }
+}

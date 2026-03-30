@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Página Principal -->
+    <url>
+        <loc>https://seu-usuario.github.io/landing-page-volmaster/</loc>
+        <lastmod>2026-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        
+        <!-- Versões alternativas de idioma -->
+        <xhtml:link rel="alternate" hreflang="pt-br" href="https://seu-usuario.github.io/landing-page-volmaster/?lang=pt-br"/>
+        <xhtml:link rel="alternate" hreflang="en-us" href="https://seu-usuario.github.io/landing-page-volmaster/?lang=en-us"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://seu-usuario.github.io/landing-page-volmaster/?lang=es-es"/>
+        
+        <!-- Imagens principais -->
+        <image:image>
+            <image:loc>https://seu-usuario.github.io/landing-page-volmaster/images/VOLMASTER%2001.png</image:loc>
+            <image:title>Logo Imersão Volmaster Tech</image:title>
+            <image:caption>Logo oficial do evento Imersão Volmaster Tech 2026</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://seu-usuario.github.io/landing-page-volmaster/images/ticket%20evento.jpg</image:loc>
+            <image:title>Ingresso Imersão Volmaster</image:title>
+            <image:caption>Ingresso para o evento Imersão Volmaster Tech</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Página de Ingressos -->
+    <url>
+        <loc>https://seu-usuario.github.io/landing-page-volmaster/ingressos-novo.html</loc>
+        <lastmod>2026-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        
+        <!-- Versões alternativas de idioma -->
+        <xhtml:link rel="alternate" hreflang="pt-br" href="https://seu-usuario.github.io/landing-page-volmaster/ingressos-novo.html?lang=pt-br"/>
+        <xhtml:link rel="alternate" hreflang="en-us" href="https://seu-usuario.github.io/landing-page-volmaster/ingressos-novo.html?lang=en-us"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://seu-usuario.github.io/landing-page-volmaster/ingressos-novo.html?lang=es-es"/>
+    </url>
+
+    <!-- Seções específicas da página principal (âncoras) -->
+    <url>
+        <loc>https://seu-usuario.github.io/landing-page-volmaster/#publico</loc>
+        <lastmod>2026-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://seu-usuario.github.io/landing-page-volmaster/#palestrantes</loc>
+        <lastmod>2026-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://seu-usuario.github.io/landing-page-volmaster/#schedule</loc>
+        <lastmod>2026-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://seu-usuario.github.io/landing-page-volmaster/#sponsors</loc>
+        <lastmod>2026-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://seu-usuario.github.io/landing-page-volmaster/#contato</loc>
+        <lastmod>2026-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
+
+<!-- 
+INSTRUÇÕES DE USO:
+====================
+
+1. APÓS O DEPLOY, atualize todas as URLs:
+   - Substitua "seu-usuario" pelo seu username do GitHub
+   - Substitua "landing-page-volmaster" pelo nome do seu repositório
+   
+2. Atualize o campo <lastmod> sempre que fizer mudanças significativas
+
+3. Prioridades (priority):
+   - 1.0: Página principal (mais importante)
+   - 0.8-0.9: Páginas secundárias importantes
+   - 0.6-0.7: Seções e âncoras
+   - 0.4-0.5: Páginas menos importantes
+
+4. Frequência de mudança (changefreq):
+   - daily: Conteúdo que muda diariamente
+   - weekly: Conteúdo que muda semanalmente
+   - monthly: Conteúdo que muda mensalmente
+   - yearly: Conteúdo que muda anualmente
+
+5. Para enviar para o Google Search Console:
+   - Acesse: https://search.google.com/search-console
+   - Adicione seu domínio
+   - Envie o sitemap: sitemap.xml
+
+6. Ferramentas para validar:
+   - https://www.xml-sitemaps.com/validate-xml-sitemap.html
+   - Google Search Console Sitemap Tester
+
+FORMATO DO SITEMAP:
+====================
+- XML válido com encoding UTF-8
+- Máximo 50.000 URLs por sitemap
+- Tamanho máximo: 50MB descomprimido
+- Data no formato ISO 8601 (YYYY-MM-DD)
+
+Para sites com mais URLs, use um índice de sitemaps (sitemap_index.xml)
+-->
