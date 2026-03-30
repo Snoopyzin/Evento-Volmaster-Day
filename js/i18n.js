@@ -537,12 +537,33 @@ function initializeLanguageSystem() {
         const lang = btn.getAttribute('data-lang');
         console.log(`   Botão ${index + 1}: ${lang}`);
         
+        // Remove event listeners anteriores (se existirem)
+        btn.replaceWith(btn.cloneNode(true));
+    });
+    
+    // Pega novamente os botões após clonar
+    const freshButtons = document.querySelectorAll('.language-btn');
+    freshButtons.forEach((btn) => {
+        const lang = btn.getAttribute('data-lang');
+        
+        // Adiciona o event listener com capture: true para processar antes de outros
         btn.addEventListener('click', (e) => {
             e.preventDefault();
             e.stopPropagation();
+            e.stopImmediatePropagation();
             console.log('🖱️ Clique detectado no botão:', lang);
             changeLanguage(lang);
+            return false;
+        }, { capture: true });
+        
+        // Adiciona também um listener normal como backup
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            changeLanguage(lang);
         });
+        
+        // Marca como inicializado
+        btn.setAttribute('data-i18n-initialized', 'true');
     });
     
     console.log('✅ Sistema i18n inicializado com sucesso!');

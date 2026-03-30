@@ -42,7 +42,11 @@ navLinks.forEach(link => {
 
 // Close menu when clicking outside
 document.addEventListener('click', (e) => {
-    if (!navToggle?.contains(e.target) && !navMenu?.contains(e.target)) {
+    // Verifica se o clique foi em um botão de idioma
+    const isLanguageButton = e.target.closest('.language-btn') || e.target.closest('.language-selector');
+    
+    // Se não foi no toggle, no menu, nem nos botões de idioma, fecha o menu
+    if (!navToggle?.contains(e.target) && !navMenu?.contains(e.target) && !isLanguageButton) {
         navMenu?.classList.remove('active');
         const spans = navToggle?.querySelectorAll('span');
         if (spans) {
