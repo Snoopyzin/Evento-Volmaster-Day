@@ -29,6 +29,7 @@ const translations = {
         'hero-date': '12 de Setembro, 2026',
         'hero-location': 'Goiânia, GO',
         'hero-description': 'O primeiro e maior evento para profissionais em manutenção de caminhões da linha Volvo',
+        'hero-social-follow': 'Acompanhe nossas redes:',
         
         // Countdown
         'countdown-days': 'Dias',
@@ -96,7 +97,6 @@ const translations = {
         'cta-description': 'Garanta sua vaga na maior imersão de tecnologia e inovação do Brasil',
         'cta-button': 'Garantir Minha Vaga Agora',
         'cta-sponsor': 'Quero Ser Patrocinador',
-        'cta-guarantee': 'Garantia de 30 dias ou seu dinheiro de volta',
         
         // Sponsors
         'sponsors-badge': 'Nossos Parceiros',
@@ -138,6 +138,57 @@ const translations = {
         
         // Footer
         'footer-description': 'Criando experiências memoráveis através de eventos de tecnologia e inovação.',
+        
+        // Tickets Page
+        'ticket-hero-badge': 'Imersão Volmaster Tech',
+        'ticket-hero-title': '1 dia de imersão presencial que vai transformar sua empresa',
+        'ticket-hero-subtitle': 'Descubra como tecnologia, gestão e inovação podem te ajudar a dominar seu mercado, encontrar seu propósito e tomar decisões que realmente mudam o jogo na sua empresa e carreira. Vagas limitadas para esta jornada única.',
+        'ticket-participate': 'QUERO PARTICIPAR',
+        'ticket-time': 'à partir das 09h',
+        'ticket-about-title': 'O que é a Imersão Volmaster Tech?',
+        'ticket-about-p1': 'Vivemos na era da informação, milhões de dados por segundo, mas pouca sabedoria de verdade.',
+        'ticket-about-p2': 'As pessoas sabem muito, mas ainda se sentem vazias. Por quê?',
+        'ticket-about-p3': 'Porque o verdadeiro crescimento não vem só do que você aprende, mas do que você desperta.',
+        'ticket-about-p4': 'Despertar para quem você é',
+        'ticket-about-p4b': ', por que está aqui e para onde está indo.',
+        'ticket-about-p5': 'É por isso que a Imersão Volmaster Tech foi criada.',
+        'ticket-about-p6': 'Uma experiência única para empresários e profissionais do setor automotivo provocar uma transformação interior que vai impactar diretamente os seus resultados externos.',
+        'ticket-about-p7': 'Esse não é apenas mais um evento.',
+        'ticket-about-p7b': 'É o momento certo para você reencontrar o sentido da vida, curar dores emocionais e encontrar respostas que a rotina nunca oferece.',
+        'ticket-who-title': 'Quem deve participar?',
+        'ticket-who-subtitle': 'Este evento é para quem:',
+        'ticket-who-card1': 'É empresário do setor automotivo e busca se destacar no mercado',
+        'ticket-who-card2': 'Precisa de um direcionamento claro para o futuro da sua empresa',
+        'ticket-who-card3': 'Sente-se emocionalmente sobrecarregado e precisa de equilíbrio',
+        'ticket-who-card4': 'Quer dominar as últimas tecnologias e ferramentas do setor automotivo',
+        'ticket-who-card5': 'Sabe que pode mais, mas não sabe por onde recomeçar',
+        'ticket-who-conclusion': 'Se alguma dessas frases falou com você, então<br>a Imersão Volmaster Tech é o seu lugar.',
+        'ticket-schedule-badge': 'Programação',
+        'ticket-schedule-title': 'Um Dia Que Vai Mudar Sua Carreira',
+        'ticket-timeline-1-title': 'Abertura e Credenciamento',
+        'ticket-timeline-1-desc': 'Recepção dos participantes e entrega de materiais',
+        'ticket-timeline-2-title': 'Palestra Alan Volmaster',
+        'ticket-timeline-2-desc': 'Conteúdo exclusivo com Alan Volmaster',
+        'ticket-timeline-3-title': 'Convidados',
+        'ticket-timeline-3-desc': 'Apresentações especiais dos convidados',
+        'ticket-timeline-4-title': 'Workshop práticas',
+        'ticket-timeline-4-desc': 'Práticas e técnicas para aplicação imediata',
+        'ticket-timeline-5-title': 'Networking e almoço',
+        'ticket-timeline-5-desc': 'Momento de conexão com outros profissionais',
+        'ticket-timeline-6-title': 'Palestra Convidados',
+        'ticket-timeline-6-desc': 'Conteúdos especiais com palestrantes convidados',
+        'ticket-timeline-7-title': 'Alan responde ao vivo',
+        'ticket-timeline-7-desc': 'Sessão interativa de perguntas e respostas',
+        'ticket-guarantee-title': 'As vagas são limitadas e a procura está alta.',
+        'ticket-guarantee-subtitle': 'Garanta agora o seu ingresso',
+        'ticket-guarantee-text': 'Esta pode ser a experiência mais transformadora do seu ano.',
+        'ticket-guarantee-cta': 'QUERO PARTICIPAR DA IMERSÃO',
+        'ticket-guarantee-badge1': 'Satisfação garantida',
+        'ticket-guarantee-badge2': 'Pagamento 100% seguro',
+        'ticket-footer-copyright': 'Copyright © 2026 Todos os direitos reservados.',
+        'ticket-footer-privacy': 'Política de privacidade',
+        
+        // Footer
         'footer-quick-links': 'Links Rápidos',
         'footer-link-home': 'Início',
         'footer-link-audience': 'Público',
@@ -145,6 +196,7 @@ const translations = {
         'footer-link-schedule': 'Programação',
         'footer-link-sponsors': 'Patrocinadores',
         'footer-info': 'Informações',
+        'footer-social': 'Redes Sociais',
         'footer-location': '📍 Goiânia, GO',
         'footer-date': '📅 12 de Setembro 2026',
         'footer-email': '📧 contato@volmasterday.com',
@@ -177,6 +229,7 @@ const translations = {
         'hero-date': 'September 12, 2026',
         'hero-location': 'Goiânia, GO',
         'hero-description': 'The first and largest event for Volvo truck line maintenance professionals',
+        'hero-social-follow': 'Follow our social media:',
         
         // Countdown
         'countdown-days': 'Days',
@@ -286,6 +339,57 @@ const translations = {
         
         // Footer
         'footer-description': 'Creating memorable experiences through technology and innovation events.',
+        
+        // Tickets Page
+        'ticket-hero-badge': 'Volmaster Tech Immersion',
+        'ticket-hero-title': '1 day of in-person immersion that will transform your company',
+        'ticket-hero-subtitle': 'Discover how technology, management and innovation can help you dominate your market, find your purpose and make decisions that really change the game in your company and career. Limited spots for this unique journey.',
+        'ticket-participate': 'I WANT TO PARTICIPATE',
+        'ticket-time': 'starting at 09h',
+        'ticket-about-title': 'What is Volmaster Tech Immersion?',
+        'ticket-about-p1': 'We live in the information age, millions of data per second, but little real wisdom.',
+        'ticket-about-p2': 'People know a lot, but still feel empty. Why?',
+        'ticket-about-p3': 'Because true growth does not come only from what you learn, but from what you awaken.',
+        'ticket-about-p4': 'Awakening to who you are',
+        'ticket-about-p4b': ', why you are here and where you are going.',
+        'ticket-about-p5': 'That is why Volmaster Tech Immersion was created.',
+        'ticket-about-p6': 'A unique experience for entrepreneurs and professionals in the automotive sector to provoke an inner transformation that will directly impact your external results.',
+        'ticket-about-p7': 'This is not just another event.',
+        'ticket-about-p7b': 'It is the right time for you to rediscover the meaning of life, heal emotional pain and find answers that routine never offers.',
+        'ticket-who-title': 'Who should participate?',
+        'ticket-who-subtitle': 'This event is for those who:',
+        'ticket-who-card1': 'Are entrepreneurs in the automotive sector and seek to stand out in the market',
+        'ticket-who-card2': 'Need clear direction for the future of your company',
+        'ticket-who-card3': 'Feel emotionally overwhelmed and need balance',
+        'ticket-who-card4': 'Want to master the latest technologies and tools in the automotive sector',
+        'ticket-who-card5': 'Know you can do more, but don\'t know where to start over',
+        'ticket-who-conclusion': 'If any of these phrases spoke to you, then<br>Volmaster Tech Immersion is your place.',
+        'ticket-schedule-badge': 'Schedule',
+        'ticket-schedule-title': 'A Day That Will Change Your Career',
+        'ticket-timeline-1-title': 'Opening and Registration',
+        'ticket-timeline-1-desc': 'Reception of participants and delivery of materials',
+        'ticket-timeline-2-title': 'Lecture by Alan Volmaster',
+        'ticket-timeline-2-desc': 'Exclusive content with Alan Volmaster',
+        'ticket-timeline-3-title': 'Guests',
+        'ticket-timeline-3-desc': 'Special presentations by guests',
+        'ticket-timeline-4-title': 'Practical Workshop',
+        'ticket-timeline-4-desc': 'Practices and techniques for immediate application',
+        'ticket-timeline-5-title': 'Networking and Lunch',
+        'ticket-timeline-5-desc': 'Time to connect with other professionals',
+        'ticket-timeline-6-title': 'Guest Speakers',
+        'ticket-timeline-6-desc': 'Special content with guest speakers',
+        'ticket-timeline-7-title': 'Alan Answers Live',
+        'ticket-timeline-7-desc': 'Interactive question and answer session',
+        'ticket-guarantee-title': 'Spots are limited and demand is high.',
+        'ticket-guarantee-subtitle': 'Secure your ticket now',
+        'ticket-guarantee-text': 'This could be the most transformative experience of your year.',
+        'ticket-guarantee-cta': 'I WANT TO JOIN THE IMMERSION',
+        'ticket-guarantee-badge1': 'Satisfaction guaranteed',
+        'ticket-guarantee-badge2': '100% secure payment',
+        'ticket-footer-copyright': 'Copyright © 2026 All rights reserved.',
+        'ticket-footer-privacy': 'Privacy Policy',
+        
+        // Footer Links
         'footer-quick-links': 'Quick Links',
         'footer-link-home': 'Home',
         'footer-link-audience': 'Audience',
@@ -293,6 +397,7 @@ const translations = {
         'footer-link-schedule': 'Schedule',
         'footer-link-sponsors': 'Sponsors',
         'footer-info': 'Information',
+        'footer-social': 'Social Media',
         'footer-location': '📍 Goiânia, GO',
         'footer-date': '📅 September 12, 2026',
         'footer-email': '📧 contact@volmasterday.com',
@@ -325,6 +430,7 @@ const translations = {
         'hero-date': '12 de Septiembre, 2026',
         'hero-location': 'Goiânia, GO',
         'hero-description': 'El primer y mayor evento para profesionales en mantenimiento de camiones de la línea Volvo',
+        'hero-social-follow': 'Síguenos en redes sociales:',
         
         // Countdown
         'countdown-days': 'Días',
@@ -439,6 +545,57 @@ const translations = {
         
         // Footer
         'footer-description': 'Creando experiencias memorables a través de eventos de tecnología e innovación.',
+        
+        // Tickets Page
+        'ticket-hero-badge': 'Inmersión Volmaster Tech',
+        'ticket-hero-title': '1 día de inmersión presencial que transformará tu empresa',
+        'ticket-hero-subtitle': 'Descubre cómo la tecnología, gestión e innovación pueden ayudarte a dominar tu mercado, encontrar tu propósito y tomar decisiones que realmente cambian el juego en tu empresa y carrera. Plazas limitadas para este viaje único.',
+        'ticket-participate': 'QUIERO PARTICIPAR',
+        'ticket-time': 'a partir de las 09h',
+        'ticket-about-title': '¿Qué es la Inmersión Volmaster Tech?',
+        'ticket-about-p1': 'Vivimos en la era de la información, millones de datos por segundo, pero poca sabiduría real.',
+        'ticket-about-p2': '¿Las personas saben mucho, pero aún se sienten vacías. Por qué?',
+        'ticket-about-p3': 'Porque el verdadero crecimiento no viene solo de lo que aprendes, sino de lo que despiertas.',
+        'ticket-about-p4': 'Despertar a quién eres',
+        'ticket-about-p4b': ', por qué estás aquí y hacia dónde vas.',
+        'ticket-about-p5': 'Por eso se creó la Inmersión Volmaster Tech.',
+        'ticket-about-p6': 'Una experiencia única para empresarios y profesionales del sector automotriz para provocar una transformación interior que impactará directamente tus resultados externos.',
+        'ticket-about-p7': 'Este no es solo otro evento.',
+        'ticket-about-p7b': 'Es el momento adecuado para que redescubras el sentido de la vida, sanes el dolor emocional y encuentres respuestas que la rutina nunca ofrece.',
+        'ticket-who-title': '¿Quién debe participar?',
+        'ticket-who-subtitle': 'Este evento es para quienes:',
+        'ticket-who-card1': 'Son empresarios del sector automotriz y buscan destacarse en el mercado',
+        'ticket-who-card2': 'Necesitan una dirección clara para el futuro de su empresa',
+        'ticket-who-card3': 'Se sienten emocionalmente abrumados y necesitan equilibrio',
+        'ticket-who-card4': 'Quieren dominar las últimas tecnologías y herramientas del sector automotriz',
+        'ticket-who-card5': 'Saben que pueden más, pero no saben por dónde empezar de nuevo',
+        'ticket-who-conclusion': 'Si alguna de estas frases te habló, entonces<br>la Inmersión Volmaster Tech es tu lugar.',
+        'ticket-schedule-badge': 'Programación',
+        'ticket-schedule-title': 'Un Día Que Cambiará Tu Carrera',
+        'ticket-timeline-1-title': 'Apertura y Acreditación',
+        'ticket-timeline-1-desc': 'Recepción de participantes y entrega de materiales',
+        'ticket-timeline-2-title': 'Conferencia de Alan Volmaster',
+        'ticket-timeline-2-desc': 'Contenido exclusivo con Alan Volmaster',
+        'ticket-timeline-3-title': 'Invitados',
+        'ticket-timeline-3-desc': 'Presentaciones especiales de invitados',
+        'ticket-timeline-4-title': 'Taller práctico',
+        'ticket-timeline-4-desc': 'Prácticas y técnicas para aplicación inmediata',
+        'ticket-timeline-5-title': 'Networking y Almuerzo',
+        'ticket-timeline-5-desc': 'Momento de conexión con otros profesionales',
+        'ticket-timeline-6-title': 'Conferencias de Invitados',
+        'ticket-timeline-6-desc': 'Contenidos especiales con ponentes invitados',
+        'ticket-timeline-7-title': 'Alan Responde en Vivo',
+        'ticket-timeline-7-desc': 'Sesión interactiva de preguntas y respuestas',
+        'ticket-guarantee-title': 'Las plazas son limitadas y la demanda es alta.',
+        'ticket-guarantee-subtitle': 'Asegura tu boleto ahora',
+        'ticket-guarantee-text': 'Esta podría ser la experiencia más transformadora de tu año.',
+        'ticket-guarantee-cta': 'QUIERO UNIRME A LA INMERSIÓN',
+        'ticket-guarantee-badge1': 'Satisfacción garantizada',
+        'ticket-guarantee-badge2': 'Pago 100% seguro',
+        'ticket-footer-copyright': 'Copyright © 2026 Todos los derechos reservados.',
+        'ticket-footer-privacy': 'Política de privacidad',
+        
+        // Footer Links
         'footer-quick-links': 'Enlaces Rápidos',
         'footer-link-home': 'Inicio',
         'footer-link-audience': 'Público',
@@ -446,6 +603,7 @@ const translations = {
         'footer-link-schedule': 'Programación',
         'footer-link-sponsors': 'Patrocinadores',
         'footer-info': 'Información',
+        'footer-social': 'Redes Sociales',
         'footer-location': '📍 Goiânia, GO',
         'footer-date': '📅 12 de Septiembre 2026',        'footer-email': '📧 contacto@volmasterday.com',        'footer-contact': '📱 Ponte en contacto',
         'footer-copyright': '© 2026 Inmersión Volmaster. Todos los derechos reservados.'
@@ -500,9 +658,6 @@ function changeLanguage(lang) {
     console.log('✅ Idioma alterado com sucesso!');
 }
 
-// Torna a função global para uso inline
-window.changeLanguage = changeLanguage;
-
 // Função de inicialização
 function initializeLanguageSystem() {
     console.log('🌐 Sistema i18n inicializando...');
@@ -540,21 +695,53 @@ function initializeLanguageSystem() {
         const lang = btn.getAttribute('data-lang');
         console.log(`   Botão ${index + 1}: ${lang}`);
         
-        // Adiciona event listener único
-        btn.addEventListener('click', function(e) {
+        // Remove event listeners anteriores (se existirem)
+        btn.replaceWith(btn.cloneNode(true));
+    });
+    
+    // Pega novamente os botões após clonar
+    const freshButtons = document.querySelectorAll('.language-btn');
+    freshButtons.forEach((btn) => {
+        const lang = btn.getAttribute('data-lang');
+        
+        // Adiciona o event listener com capture: true para processar antes de outros
+        btn.addEventListener('click', (e) => {
             e.preventDefault();
             e.stopPropagation();
+            e.stopImmediatePropagation();
             console.log('🖱️ Clique detectado no botão:', lang);
             changeLanguage(lang);
+            return false;
+        }, { capture: true });
+        
+        // Adiciona também um listener normal como backup
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            changeLanguage(lang);
         });
+        
+        // Marca como inicializado
+        btn.setAttribute('data-i18n-initialized', 'true');
     });
     
     console.log('✅ Sistema i18n inicializado com sucesso!');
 }
 
-// Inicialização quando o DOM estiver pronto
+// Múltiplos métodos de inicialização para garantir que funcione
 if (document.readyState === 'loading') {
+    // DOM ainda carregando
     document.addEventListener('DOMContentLoaded', initializeLanguageSystem);
 } else {
+    // DOM já está pronto
     initializeLanguageSystem();
 }
+
+// Fallback adicional por segurança
+setTimeout(() => {
+    const buttons = document.querySelectorAll('.language-btn');
+    if (buttons.length > 0 && !buttons[0].hasAttribute('data-i18n-initialized')) {
+        console.log('🔄 Executando inicialização de fallback...');
+        buttons.forEach(btn => btn.setAttribute('data-i18n-initialized', 'true'));
+        initializeLanguageSystem();
+    }
+}, 1000);
